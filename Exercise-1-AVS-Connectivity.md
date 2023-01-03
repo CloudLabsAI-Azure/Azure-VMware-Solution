@@ -36,8 +36,7 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 
 ### Option 1: Internal ExpressRoute Setup from AVS -> VNet
 
- > **NOTE:** 
-   * Since we already have a virtual network gateway, you’ll add a connection between it and your Azure VMware Solution private cloud.
+ > **NOTE**: Since we already have a virtual network gateway, you’ll add a connection between it and your Azure VMware Solution private cloud.
 
 
 
