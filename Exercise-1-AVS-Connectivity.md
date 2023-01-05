@@ -82,6 +82,26 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 
  > **NOTE**: Since we already have a virtual network gateway, you’ll add a connection between it and your Azure VMware Solution private cloud.
 
+1. On Azure portal, click on the **Resource groups** from the **Navigate** section. 
+
+   ![Navigate Resource Group](Images/goto-rg.jpg)
+   
+2. From the **Resource group** page, open **AVS-RG** by clicking on it.
+  
+   ![Navigate AVS-RG Resource Group](Images/select-avs-rg.jpg)
+   
+4. Now, you can see the resources in **AVS-RG**, select **AVS-DC** resource of **AVS Private cloud** type.
+
+   ![Launch AVS-DC](Images/launch-avs-dc.jpg)
+
+6. 
+7. 
+8.
+9. 
+10. 
+11. 
+12. 
+
 
 
 
