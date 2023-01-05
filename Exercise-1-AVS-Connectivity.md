@@ -26,6 +26,50 @@ After this lab is complete, you will have built out this scenario below:
   3. Creation of Test VMs to attach to your NSX-T Network Segments.
   4. Explore some advanced NSX-T features like tagging, creation of groups, Distributed Firewall Features.
 
+## Deploy Azure VMware Solution (AVS)
+In this section you will deploy the Azure VMware Solution rom Azure portal, AVS deployment will take 4-5 hours.
+
+1. On Azure portal, click on **Show portal menu** button from upper left corner.
+
+   ![Show portal menu](Images/show-portal-menu.jpg)
+   
+2. Click on **+ Create a resource**.
+
+   ![Create a resource](Images/create-a-resource.jpg)
+   
+3. In search box enter **Azure VMware Solution** and then select **Azure VMware Solutions**.
+
+   ![create-a-resource-avs](Images/create-a-resource-avs.jpg)
+   
+4. Click on **Create**.
+
+   ![click-create](Images/click-create-1.jpg)
+   
+5. Click on **Create** button again.
+
+   ![click-create](Images/click-create-2.jpg)
+   
+6. On the **Prerequisites** blade, click on **Next : Basics >**
+
+   ![click-create](Images/click-next-basics.jpg)
+   
+7. On **Basics** tab, enter/select following values:
+    * Resource Group: `AVS-RG`
+    * Resource Name: `AVS-DC`
+    * Location: `Same as Resource Group location`
+    * Size of Host: `AV36P Node`
+    * Number of hosts: `default/3`
+    * Address block for private cloud: `10.10.0.0/16`
+   Now, click on **Review and Create**
+    
+   ![review and create](Images/avs-review-and-create.jpg)
+   
+8. Validate all the values which you have provided in previous step and click on **Create** to start the Azure Vmware Solution deployment. Please note it will take upto 4-5 hours to get the deployment succeed.
+
+   ![create](Images/avs-create.jpg)
+   
+9. Once the deployment is succeed you can varify it from the notification icon of Azure portal from the top right corner near settings gear icon.
+
 ## Task 1: AVS Connectivity Options
 
 ### Overview
