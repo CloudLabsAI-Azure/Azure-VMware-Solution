@@ -92,16 +92,72 @@ In this section you will create a connection between an existing, non-AVS, Virtu
    
 4. Now, you can see the resources in **AVS-RG**, select **AVS-DC** resource of **AVS Private cloud** type.
 
-   ![Launch AVS-DC](Images/launch-avs-dc.jpg)
+   ![Launch AVS-DC](Images/launch-avs-dc1.jpg)
+   
+5. From **AVS-DC** blade, click on **VMware credentials** (1), then copy **Web client URL of vCenter Server**.
 
-6. 
-7. 
-8.
-9. 
-10. 
-11. 
-12. 
+   ![copy web client URL](Images/vCenterWebClientURLcopy.jpg)
+   
+6. Now, open the new tab in **Edge** browser in **JumpBox** and paste the **Web client URL of vCenter Server**. You will see it is not avaiable becouse there is no connectivity with AVS-DC Vmware private cloud yet. In next step you will start configuring the connectivity on **AVS-DC** with **JumpBOX-vNet** using Azure Virtual Gateway.
 
+   ![Open web client URL](Images/vCenterWebClientURLopen.jpg)
+   
+7. From **AVS-DC** blade, click on **Connectivity** option under **Manage** section and then select **ExpressRoute** from the available connectivity options. In last click on **+ Request an authorization key**.
+
+   ![Request an authorization key](Images/req-key.jpg)
+
+8. Notedown the values of **ExpressRoute ID** and **az-vnet-key** values for next steps.
+
+   ![Notedown authorization key](Images/copy-id-and-key.jpg)
+
+9. From Azure portal, go to the Resource groups and click on **JumpBox-RG**.
+
+   ![Select JumpBox RG](Images/select-jumpbox-rg.jpg)
+
+10. From **JumpBox-RG** overview blade, click on **JumpBox-GW**.
+
+   ![Select JumpBox gateway](Images/select-jumpbox-gw.jpg)
+
+11. gw-connection-add
+
+12. On **Add connection** blade, enter forllowing details:
+     * Name (1): `AVS-vNet`
+     * Connection type (2): `ExpressRoute`
+     * Enable check box for **Redeem authorization** (3)
+     * Authorization key: paste the autharization key **az-vnet-key** value which you noted in previous steps. 
+     * Peer circuit URI: paste the **ExpressRoute ID** value which you noted in previous steps.
+    Now, click on the **OK** button to add the connection, and wait for few seconds to get the connection succeed.
+    
+    ![Add Gateway Connection](Images/add-connection-gw.jpg)
+    
+13. Within few second you will fing the connection is added and in succeeded state.
+
+    ![Gateway Connection Succeed](Images/connection-suceed.jpg)
+
+14. Now, from **AVS-DC** blade, click on **VMware credentials** (1), then copy **Web client URL of vCenter Server**.
+
+    * Web client URL of vCenter Server: `https://10.10.0.2/`
+
+   ![copy web client URL](Images/vCenterWebClientURLcopy.jpg)
+
+15. Now, enter the vCenter Server **Web client URL**(1) in edge browser. Click on the **Advanced button**(2).
+
+   ![Enter web client URL](Images/enter-vcenter-url.jpg)
+
+16. Click on **Continue to 10.10.0.2 (unsafe)** to open the vCenter Server. 
+
+   ![Continue](Images/continue-unsafe-vcenter-url.jpg)
+   
+17. You will see that now you can launch the vsphere client (HtML5) successfully now. After launching vsphere client you will have to click on **Advance** button and then procees with unsafe link. You will see the **VMware vSphere** login screen now.
+
+   ![Continue](Images/vmware-vsphere-login-page.jpg)
+   
+18. Repeat same steps to access NSX-T Manager using the Web Client URL.
+    * https://10.10.0.3/
+
+    ![NSX-T-Manager](Images/NSX-T-Manager.jpg)  
+   
+   
 
 
 
