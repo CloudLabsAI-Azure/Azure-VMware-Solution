@@ -105,3 +105,7 @@ Now that we have our networks created, we can deploy virtual machines and ensure
 1. On the **Ready to complete** pane; click on **FINISH**.
 
    ![](./Images/3.22.jpg)
+   
+1. Repeat the above steps and create a new VM with name **TestVM-2**.
+
+   ![](./Images/TestVM-2.jpg)
