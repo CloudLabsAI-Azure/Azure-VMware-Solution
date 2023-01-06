@@ -1,23 +1,23 @@
-# Exercise 1: Create a content Library
+# Exercise 1: Create a Content Library
 
 1. Search **Azure VMware Solution (1)** and then select **Azure VMware Solution (2)**.
 
    ![](./Images/3.1.png "Select Azure VMware Solution")
 
 1. Select your **Azure VMware Solution**.
-1. On the Azure VMware Solution page click on **VMware credentials (1)** under Manage and then copy the **Username** and **Password** under vCenter Server Credentials **(2)** and paste in in notepad for later use.
+1. On the Azure VMware Solution page click on **VMware credentials (1)** under Manage and then copy the **Web client URL**, **Username** and **Password** under vCenter Server Credentials **(2)** and paste it in notepad for later use.
 
    ![](./Images/3.2.jpg)
 
-1. Open a new tab in the Microsoft edge browser, Enter the URL that you copied. 
+1. Open a new tab in the Microsoft Edge browser, Enter the **Web Client URL** that you copied in step 3. 
 
    
 
-1. Login to the **VMware vSphere**; Enter the **Username** and **password** that you copied in step 3 and click on **LOGIN**.
+1. Log in to the **VMware vSphere**; Enter the **Username** and **password** that you copied in step 3 and click on **LOGIN**.
 
    ![](./Images/3.3.jpg)
 
-1. From AVS vCenter, click on the **Menu (1)** bars and then click on **Content Libraries (2)** under Inventory.
+1. From AVS vCenter, click on the **Menu (1)** bar and then click on **Content Libraries (2)** under Inventory.
 
    ![](./Images/3.4.jpg)
 
@@ -37,7 +37,7 @@
 
    ![](./Images/3.7.jpg)
 
-1. On the **Add storage** pane; Select the **Storage (1)** and click on **NEXT (2)**.
+1. On the **Add storage** pane; Select **Storage (1)** and click on **NEXT (2)**.
 
    ![](./Images/3.8.jpg)
 
@@ -53,11 +53,11 @@
 
    ![](./Images/3.11.jpg)
 
-1. Under Source tab, Enter URL as **https://gpsusstorage.blob.core.windows.net/ovas-isos/workshop-vm.ova (1)** and click on **IMPORT (2)**.
+1. Under the Source tab, Enter the URL as **https://gpsusstorage.blob.core.windows.net/ovas-isos/workshop-vm.ova (1)** and click on **IMPORT (2)**.
 
    ![](./Images/3.12.jpg)
 
-1. After Successfully Import the Source file, click on **Actions** on the top right and click on **Continue**.
+1. After Successfully Importing the Source file, click on **Actions** on the top right and click on **Continue**.
 
    ![](./Images/3.13.jpg)
 
@@ -65,11 +65,11 @@
 
    ![](./Images/3.14.jpg)
 
-1. Select the workshop-vm and right click on **workshop-vm (1)** and then click on **New VM from This Template... (2)**.
+1. Select the workshop-vm, right click on **workshop-vm (1)**, and then click on **New VM from This Template... (2)**.
 
    ![](./Images/3.15.jpg)
 
-1. On the **Select a name and folder** pane; Enter Virtual machine name as **TestVM (1)** and then Select a location for the virtual machine i.e. **SDDC-Datacenter (2)**, click on **NEXT (3)**.
+1. On the **Select a name and folder** pane; Enter the Virtual machine name as **TestVM (1)** and then Select a location for the virtual machine i.e. **SDDC-Datacenter (2)**, and click on **NEXT (3)**.
 
    ![](./Images/3.16.jpg)
 
@@ -85,7 +85,7 @@
 
    ![](./Images/3.19.jpg)
 
-1. On the **Select stoarge** pane; Select the **Storage (1)** and click on **NEXT (2)**.
+1. On the **Select storage** pane; Select **Storage (1)** and click on **NEXT (2)**.
 
    ![](./Images/3.20.jpg)
 
