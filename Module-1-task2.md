@@ -23,9 +23,9 @@ A DHCP profile specifies a DHCP server type and configuration. You can use the d
 |AVS NSX-T Details|	  |
 |-------|-------|
 |DHCP Server IP	| 10.10.5.1/30|
-|Segment Name| WEB-NET-GROUP-XY|
-|Segment Gateway| 10.XY.51.1/24|
-|DHCP Range| 10.XY.51.4-10.XY.51.254|
+|Segment Name| Web-Segment|
+|Segment Gateway| 10.10.4.1/2|
+|DHCP Range| 10.10.4.4-10.10.4.2544|
 
 1. Open the **VMware NSX-T** login page on the web browser using the **Web client URL**.
 
@@ -68,3 +68,25 @@ Network segments are logical networks for use by workload VMs in the SDDC comput
    - An extended network segment extends an existing L2VPN tunnel, providing a single IP address space that spans the SDDC and an On-Premises network.
 
    - A disconnected network segment has no uplink and provides an isolated network accessible only to VMs connected to it. Disconnected segments are created when needed by HCX. You can also create them yourself and can convert them to other segment types.
+
+1. In the **NSX-T Console**, click **Networking (1)**. Select **Segments** under connectivity ad click on **ADD SEGMENT**.
+
+2. On the Segments page provide the following details:
+
+  - **Segment Name:**  `Web-Segment` **(1)**
+  - **Connected Gateway:**  `TNT69-T1| Tier1` **(2)**
+  - **Transport Zone:** `TNT69-OVERLAY-TZ` **(3)**
+  - **Subnets:** `10.10.4.1/24` **(4)**
+ 
+  Select **SET DHCP CONFIG**.
+
+3. On **SET DHCP CONFIG** pane under **Gateway DHCP Server** ensure to add the following and click on **APPLY**: 
+   
+    - **DHCP Config:** `Enabled`
+    - **DHCP Server Address:** `10.10.5.1/30` 
+    -  **DHCP Ranges:** 10.10.4.4-10.10.4.254
+    -  **DNS Servers:** `10.10.0.192`
+
+4. Click on **Save**.
+
+5. Select **NO** on the **Segment Web-Segment is sucessfully created.**
