@@ -1,3 +1,8 @@
+# Create Test VMs and connect to Segment
+
+## Create Test VMs
+Now that we have our networks created, we can deploy virtual machines and ensure we can get an IP address from DHCP. Go ahead and Login into your AVS vCenter.
+
 # Exercise 1: Create a Content Library
 
 1. Search **Azure VMware Solution (1)** and then select **Azure VMware Solution (2)**.
