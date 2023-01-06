@@ -64,11 +64,11 @@ In this section you will deploy the Azure VMware Solution rom Azure portal, AVS 
     
    ![review and create](Images/avs-review-and-create.jpg)
    
-8. Validate all the values which you have provided in previous step and click on **Create** to start the Azure Vmware Solution deployment. Please note it will take upto 4-5 hours to get the deployment succeed.
+8. Validate all the values which you have provided in previous step and click on **Create** to start the Azure VMware Solution deployment. Please note it will take upto 4-5 hours to get the deployment succeed.
 
    ![create](Images/avs-create.jpg)
    
-9. Once the deployment is succeed you can varify it from the notification icon of Azure portal from the top right corner near settings gear icon.
+9. Once the deployment is succeeded you can verify it from the notification icon of Azure portal from the top right corner near settings gear icon.
 
 ## Task 2: AVS Connectivity Options
 
@@ -98,39 +98,47 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 
    ![copy web client URL](Images/vCenterWebClientURLcopy.jpg)
    
-6. Now, open the new tab in **Edge** browser in **JumpBox** and paste the **Web client URL of vCenter Server**. You will see it is not avaiable becouse there is no connectivity with AVS-DC Vmware private cloud yet. In next step you will start configuring the connectivity on **AVS-DC** with **JumpBOX-vNet** using Azure Virtual Gateway.
+6. Now, open the new tab in **Edge** browser in **JumpBox** and paste the **Web client URL of vCenter Server**. You will see it is not available because there is no connectivity with AVS-DC VMware private cloud yet. In next step you will start configuring the connectivity on **AVS-DC** with **JumpBOX-vNet** using Azure Virtual Gateway.
 
    ![Open web client URL](Images/vCenterWebClientURLopen.jpg)
    
 7. From **AVS-DC** blade, click on **Connectivity** option under **Manage** section and then select **ExpressRoute** from the available connectivity options. In last click on **+ Request an authorization key**.
 
    ![Request an authorization key](Images/req-key.jpg)
+   
+8. Give your authorization key a name: `az-vnet-key`. Click **Create**. It may take about 30 seconds to create the key.
 
-8. Notedown the values of **ExpressRoute ID** and **az-vnet-key** values for next steps.
+   ![Create authorization key](Images/create-auth-key.jpg)
+
+
+#### Create connection in VNet Gateway
+
+1. Once authorization key is created, the new key appears in the list of authorization keys for the private cloud. Copy the authorization key and ExpressRoute ID and keep it handy. You will need them to complete the peering. The authorization key disappears after some time, so copy it as soon as it appears.
 
    ![Notedown authorization key](Images/copy-id-and-key.jpg)
 
-9. From Azure portal, go to the Resource groups and click on **JumpBox-RG**.
+2. From Azure portal, go to the Resource groups and click on **JumpBox-RG**.
 
    ![Select JumpBox RG](Images/select-jumpbox-rg.jpg)
 
-10. From **JumpBox-RG** overview blade, click on **JumpBox-GW**.
+3. From **JumpBox-RG** overview blade, click on **JumpBox-GW**.
 
    ![Select JumpBox gateway](Images/select-jumpbox-gw.jpg)
 
-11. gw-connection-add
+4. 
+    gw-connection-add
 
-12. On **Add connection** blade, enter forllowing details:
+5. On **Add connection** blade, enter following details:
      * Name (1): `AVS-vNet`
      * Connection type (2): `ExpressRoute`
      * Enable check box for **Redeem authorization** (3)
-     * Authorization key: paste the autharization key **az-vnet-key** value which you noted in previous steps. 
+     * Authorization key: paste the authorization key **az-vnet-key** value which you noted in previous steps. 
      * Peer circuit URI: paste the **ExpressRoute ID** value which you noted in previous steps.
     Now, click on the **OK** button to add the connection, and wait for few seconds to get the connection succeed.
     
     ![Add Gateway Connection](Images/add-connection-gw.jpg)
     
-13. Within few second you will fing the connection is added and in succeeded state.
+6. Within few second you will find the connection is added and in succeeded state.
 
     ![Gateway Connection Succeed](Images/connection-suceed.jpg)
     
@@ -150,17 +158,13 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 
    ![Continue](Images/continue-unsafe-vcenter-url.jpg)
    
-4. You will see that now you can launch the vsphere client (HtML5) successfully now. After launching vsphere client you will have to click on **Advance** button and then procees with unsafe link. You will see the **VMware vSphere** login screen now.
+4. You will see that now you can launch the vSphere client (HtML5) successfully now. After launching vSphere client you will have to click on **Advance** button and then proceed with unsafe link. You will see the **VMware vSphere** login screen now.
 
    ![Continue](Images/vmware-vsphere-login-page.jpg)
    
-18. Repeat same steps to access NSX-T Manager using the Web Client URL.
+5. Repeat same steps to access NSX-T Manager using the Web Client URL.
     * https://10.10.0.3/
 
     ![NSX-T-Manager](Images/NSX-T-Manager.jpg)  
    
    
-
-
-
-
