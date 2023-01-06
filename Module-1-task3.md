@@ -11,7 +11,7 @@
 
 1. Open a new tab in the Microsoft Edge browser, Enter the **Web Client URL** that you copied in step 3. 
 
-   ![](./Images/new3.2.jpg)
+   ![](./Images/new3..2.jpg)
 
 1. Log in to the **VMware vSphere**; Enter the **Username** and **password** that you copied in step 3 and click on **LOGIN**.
 
@@ -53,7 +53,7 @@
 
 1. On the Local-Lib Library, click on **ACTIONS (1)** and then click on **Import item (2)**.
 
-   ![](./Images/3.11.jpg)
+   ![](./Images/3..11.jpg)
 
 1. Under the Source tab, Enter the URL as **https://gpsusstorage.blob.core.windows.net/ovas-isos/workshop-vm.ova (1)** and click on **IMPORT (2)**.
 
