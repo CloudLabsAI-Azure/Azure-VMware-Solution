@@ -11,7 +11,7 @@
 
 1. Open a new tab in the Microsoft Edge browser, Enter the **Web Client URL** that you copied in step 3. 
 
-   
+   ![](./Images/new3.2.jpg)
 
 1. Log in to the **VMware vSphere**; Enter the **Username** and **password** that you copied in step 3 and click on **LOGIN**.
 
@@ -44,6 +44,8 @@
 1. On the **Ready to complete** pane; Review your content library settings and click on **FINISH**.
 
    ![](./Images/3.9.jpg)
+   
+# Exercise 2: Import Item to Content Library 
 
 1. Click on your newly created Library i.e. **Local-Lib**.
 
@@ -64,6 +66,8 @@
 1. You will see the **workshop-vm** under the OVF & OVA Templates.
 
    ![](./Images/3.14.jpg)
+   
+# Exercise 3: Create VMs
 
 1. Select the workshop-vm, right click on **workshop-vm (1)**, and then click on **New VM from This Template... (2)**.
 
