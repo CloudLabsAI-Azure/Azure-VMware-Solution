@@ -21,7 +21,7 @@
 
    ![](./Images/3.4.jpg)
 
-1. click on the **Create** button to create the **New Content Libraries**.
+1. click on the **CREATE** button to create the **New Content Libraries**.
 
    ![](./Images/new3.5.png)
 
