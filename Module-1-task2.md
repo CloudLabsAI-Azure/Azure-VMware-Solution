@@ -47,7 +47,7 @@ A DHCP profile specifies a DHCP server type and configuration. You can use the d
 7. The **DHCP profile** has been added successfully.
 
 
-# Exercise 2: Create an NSX-T T1 Logical Router
+# Exercise 2: Add the DHCP Profile to the T1 Gateway
 
 NSX-T has the concept of Logical Routers (LR). These Logical Routers can perform both distributed or centralized functions. In AVS, NSX-T is deployed and configured with a default T0 Logical Router and a default T1 Logical Router. The T0 LR in AVS cannot be manipulated by AVS customers, however the T1 LR can be configured however an AVS customer chooses. AVS customers also have the option to add additional T1 LRs as they see fit.
 
@@ -55,4 +55,16 @@ NSX-T has the concept of Logical Routers (LR). These Logical Routers can perform
 
 2. On **Tier-1 Gateways** page, click on **Set DHCP Configuration**. 
 
-3. In **Set DHCP Configuration** pane select **Type** as **DHCP Server (1)** and **DHCP Server Profile** as **Web-DHCP (2)** then click **Save (3)**
+3. In **Set DHCP Configuration** pane select **Type** as **DHCP Server (1)** and **DHCP Server Profile** as **Web-DHCP (2)** then click **Save (3)**.
+
+4. On the  **Tier-1 Gateways** page select **Save (1)** and **CLOSE EDITING (2)**.
+
+
+# Exercise 3: Create Network Segment for AVS VM workloads
+Network segments are logical networks for use by workload VMs in the SDDC compute network. Azure VMware Solution supports three types of network segments: routed, extended, and disconnected.
+
+   - A routed network segment (the default type) has connectivity to other logical networks in the SDDC and, through the SDDC firewall, to external networks.
+
+   - An extended network segment extends an existing L2VPN tunnel, providing a single IP address space that spans the SDDC and an On-Premises network.
+
+   - A disconnected network segment has no uplink and provides an isolated network accessible only to VMs connected to it. Disconnected segments are created when needed by HCX. You can also create them yourself and can convert them to other segment types.
