@@ -26,7 +26,7 @@ After this lab is complete, you will have built out this scenario below:
   3. Creation of Test VMs to attach to your NSX-T Network Segments.
   4. Explore some advanced NSX-T features like tagging, creation of groups, Distributed Firewall Features.
 
-## Deploy Azure VMware Solution (AVS)
+## Task 1: Deploy Azure VMware Solution (AVS)
 In this section you will deploy the Azure VMware Solution rom Azure portal, AVS deployment will take 4-5 hours.
 
 1. On Azure portal, click on **Show portal menu** button from upper left corner.
@@ -70,7 +70,7 @@ In this section you will deploy the Azure VMware Solution rom Azure portal, AVS 
    
 9. Once the deployment is succeed you can varify it from the notification icon of Azure portal from the top right corner near settings gear icon.
 
-## Task 1: AVS Connectivity Options
+## Task 2: AVS Connectivity Options
 
 ### Overview
 
@@ -133,22 +133,24 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 13. Within few second you will fing the connection is added and in succeeded state.
 
     ![Gateway Connection Succeed](Images/connection-suceed.jpg)
+    
+## Task 3: Confirm access from Jumpbox
 
-14. Now, from **AVS-DC** blade, click on **VMware credentials** (1), then copy **Web client URL of vCenter Server**.
+1. Now, from **AVS-DC** blade, click on **VMware credentials** (1), then copy **Web client URL of vCenter Server**.
 
     * Web client URL of vCenter Server: `https://10.10.0.2/`
 
    ![copy web client URL](Images/vCenterWebClientURLcopy.jpg)
 
-15. Now, enter the vCenter Server **Web client URL**(1) in edge browser. Click on the **Advanced button**(2).
+2. Now, enter the vCenter Server **Web client URL**(1) in edge browser. Click on the **Advanced button**(2).
 
    ![Enter web client URL](Images/enter-vcenter-url.jpg)
 
-16. Click on **Continue to 10.10.0.2 (unsafe)** to open the vCenter Server. 
+3. Click on **Continue to 10.10.0.2 (unsafe)** to open the vCenter Server. 
 
    ![Continue](Images/continue-unsafe-vcenter-url.jpg)
    
-17. You will see that now you can launch the vsphere client (HtML5) successfully now. After launching vsphere client you will have to click on **Advance** button and then procees with unsafe link. You will see the **VMware vSphere** login screen now.
+4. You will see that now you can launch the vsphere client (HtML5) successfully now. After launching vsphere client you will have to click on **Advance** button and then procees with unsafe link. You will see the **VMware vSphere** login screen now.
 
    ![Continue](Images/vmware-vsphere-login-page.jpg)
    
