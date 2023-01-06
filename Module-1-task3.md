@@ -5,7 +5,7 @@
    ![](./Images/3.1.png "Select Azure VMware Solution")
 
 1. Select your **Azure VMware Solution**.
-1. On the Azure VMware Solution page click on **VMware credentials (1)** under Manage and then copy the **Web client URL**, **Username** and **Password** under vCenter Server Credentials **(2)** and paste it in notepad for later use.
+1. On the Azure VMware Solution page click on **VMware credentials (1)** under Manage tab and then copy the **Web client URL**, **Username** and **Password** under vCenter Server Credentials **(2)** and paste it in notepad for later use.
 
    ![](./Images/3.2.jpg)
 
