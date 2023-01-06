@@ -21,7 +21,7 @@
 
    ![](./Images/3.4.jpg)
 
-1. click on the **Create** button to create the **New Content Library**.
+1. click on the **Create** button to create the **New Content Libraries**.
 
    ![](./Images/new3.5.png)
 
@@ -71,20 +71,28 @@
 
 1. On the **Select a name and folder** pane; Enter Virtual machine name as **TestVM (1)** and then Select a location for the virtual machine i.e. **SDDC-Datacenter (2)**, click on **NEXT (3)**.
 
+   ![](./Images/3.16.jpg)
 
 1. On the **Select a compute resource** pane; Select the destination compute resource for this operation i.e. **Cluster-1 (1)** and click on **NEXT (3)**.
 
+   ![](./Images/3.17.jpg)
 
 1. On the **Review details** pane; you can verify the template details and click on **NEXT**.
 
+   ![](./Images/3.18.jpg)
 
 1. On the **License agreements** pane; Accept the terms and click on **NEXT**.
 
+   ![](./Images/3.19.jpg)
 
 1. On the **Select stoarge** pane; Select the **Storage (1)** and click on **NEXT (2)**.
 
+   ![](./Images/3.20.jpg)
 
 1. On the **Select networks** pane; Select the Destination Network as **Web-Segment** and click on **NEXT**.
 
+   ![](./Images/3.21.jpg)
 
 1. On the **Ready to complete** pane; click on **FINISH**.
+
+   ![](./Images/3.22.jpg)
