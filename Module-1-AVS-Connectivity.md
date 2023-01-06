@@ -125,9 +125,10 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 
    ![Select JumpBox gateway](Images/select-jumpbox-gw.jpg)
 
-4. 
-    gw-connection-add
-
+4. From the **JumpBox-GW** blade, click on on the **Connections** under **Settings** and then **+ Add** to add the gatway connection.
+    
+   ![Add gateway connection](Images/gw-connection-add.jpg)
+   
 5. On **Add connection** blade, enter following details:
      * Name (1): `AVS-vNet`
      * Connection type (2): `ExpressRoute`
@@ -136,7 +137,7 @@ In this section you will create a connection between an existing, non-AVS, Virtu
      * Peer circuit URI: paste the **ExpressRoute ID** value which you noted in previous steps.
     Now, click on the **OK** button to add the connection, and wait for few seconds to get the connection succeed.
     
-    ![Add Gateway Connection](Images/add-connection-gw.jpg)
+     ![Add Gateway Connection](Images/add-connection-gw.jpg)
     
 6. Within few second you will find the connection is added and in succeeded state.
 
@@ -148,7 +149,7 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 
     * Web client URL of vCenter Server: `https://10.10.0.2/`
 
-   ![copy web client URL](Images/vCenterWebClientURLcopy.jpg)
+     ![copy web client URL](Images/vCenterWebClientURLcopy.jpg)
 
 2. Now, enter the vCenter Server **Web client URL**(1) in edge browser. Click on the **Advanced button**(2).
 
@@ -165,6 +166,6 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 5. Repeat same steps to access NSX-T Manager using the Web Client URL.
     * https://10.10.0.3/
 
-    ![NSX-T-Manager](Images/NSX-T-Manager.jpg)  
+     ![NSX-T-Manager](Images/NSX-T-Manager.jpg)  
    
    
