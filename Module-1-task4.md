@@ -71,3 +71,52 @@ You can find more information on NSX-T Groups on [VMware’s NSX-T Data Center d
 ### Exercise 3: Create an NSX-T Distributed Firewall Policy
 
 **NSX-T Distributed Firewall** monitors all East-West traffic on your AVS Virtual Machines and allows you to either deny or allow traffic between these VMs even if the exist on the same NSX-T Network Segment. This is the example of your 2 VMs and we will assume they’re 2 web servers that should never have to talk to each other. More information can be found here: [Distributed Firewall](https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.2/administration/GUID-6AB240DB-949C-4E95-A9A7-4AC6EF5E3036.html).
+
+1. Under **Security (1)** tab, click on the **Distributed Firewall (2)** and then **+ ADD POLICY (3)**. In place of **New Policy** provide policy name as **WebSecPolicy (4)**.
+
+   ![](Images/websecpolicy.jpg)
+   
+2. Click in the **ellipses (1)**, and then **Add Rule (2)** for **WebSecPolicy**.
+
+   ![](Images/websecpolicy-addrule.jpg)
+   
+3. Enter the policy name as `RuleDemo` (1) and then click on **edit 🖋 (2)** button for Sources.
+
+   ![](Images/websecpolicy-addrule-name.jpg)
+   
+4. On **Set Sources** tab, select the **checkbox ☑ (1)** for **WebVMs** group and click on **APPLY (2)**.
+
+   ![](Images/websecpolicy-set-sources.jpg)
+   
+5. Similarly add the **Destinations** to **WebVMs (3)** group and make sure entries as per screen below; now click on **PUBLISH** to pulish the newly created Distributed Firewall Rule.
+
+   ![](Images/websecpolicy-publish.jpg)
+   
+6. Once you publish the Distributed Firewall Rule, it will take about 15-20 seconds to get succeed; till then it will show as **In Progress**.
+
+   ![](Images/websecpolicy-publish-inprogress.jpg)
+   
+7. You will see the **Success** status once it is successfully published.
+
+   ![](Images/websecpolicy-publish-success.jpg)
+   
+8. Once the rule is published, you can try to to ping the VMs from each other. Hopefully you still have the SSH sessions open to your 2 VMs you created earlier. If not, just SSH again. From one of the VMs, run a continuous ping to the other VM’s IP address like the example below.
+   * Ping TestVM-2 (10.10.4.5) from TestVM-1 (10.10.4.4): `ping 10.10.4.5`
+   * Ping TestVM-1 (10.10.4.4) from TestVM-2 (10.10.4.5): `ping 10.10.4.4`
+
+    ![](Images/websecpolicy-test-allowed-pingvms.jpg)
+   
+9. Change the Action in your **WebSecRule** Rule **RuleDemo** action to **Reject (1)** and click **Publish (2)**. In few seconds status will be updated to **Success (3)**.
+
+   ![](Images/websecpolicy-test-reject-pingvms.jpg)
+
+10. Now, switch back to the SSH VMs connection and You can notice that after publishing the change to Reject on your rule, the ping now displays “Destination Host Prohibited”. NSX-T DFW feature is allowing the packet to get from one VM to another but it rejects it once the second VM receives the packet.
+
+    ![](Images/websecpolicy-test-rejected.jpg)
+   
+11. You can also change this option to **Drop** where the packet is completely dropped by the second VM.
+
+
+
+   
+
