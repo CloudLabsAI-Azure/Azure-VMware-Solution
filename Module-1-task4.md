@@ -38,8 +38,36 @@ You have successfully added the Tag to the Virtual Machines, now let's us create
 
 ### Exercise 2: Create NSX-T Groups
 
-Groups include different objects that are added both statically and dynamically, and can be used as the source and destination of a firewall rule.
+**Groups** include different objects that are added both statically and dynamically, and can be used as the source and destination of a firewall rule.
 
 Groups can be configured to contain a combination of Virtual Machines, IP sets, MAC sets, segment ports, segments, AD user groups, and other groups. Dynamic including of groups can be based on a tag, machine name, OS name, or computer name.
 
-You can find more information on NSX-T Groups on VMware’s NSX-T Data Center docs.
+You can find more information on NSX-T Groups on [VMware’s NSX-T Data Center docs](https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.2/administration/GUID-9DFF6EE2-2E00-4097-A412-B72472596E4D.html).
+
+1. Under **Inventory (1)**, click on the **Groups (2)** option and then **ADD GROUP (3)**
+
+   ![](Images/groups-add-group.jpg)
+  
+2. Provide `WebVms` (1) in group Name and then click on **Set Members (2)**.
+
+   ![](Images/add-groups-name.jpg)
+   
+3. Under **Select Members | WebVms** tab, click on **+ ADD CRITERIA (2)** in Membership Criteria. Now, under **Criteria 1** select **Virtual Machines (3)** from the available options. Select **Web (4)** for Tag Equals and click on **APPLY (5)**. 
+
+   ![](Images/add-criteria.jpg)
+   
+4. Once the criteria is added **Save** the group **WebVms**.
+
+   ![](Images/save-webvms-group.jpg)
+   
+5. Click on **View Members** to check the members of newly created group. 
+
+   ![](Images/webvms-view-members.jpg)
+   
+6. You can see the two members under **Virtual Machines** option which are **TestVM-1** and **TestVM-2** where we added the Web as tag. Now, you can **CLOSE** the tab.
+
+   ![](Images/webvms-review-members.jpg)
+
+### Exercise 3: Create an NSX-T Distributed Firewall Policy
+
+**NSX-T Distributed Firewall** monitors all East-West traffic on your AVS Virtual Machines and allows you to either deny or allow traffic between these VMs even if the exist on the same NSX-T Network Segment. This is the example of your 2 VMs and we will assume they’re 2 web servers that should never have to talk to each other. More information can be found here: [Distributed Firewall](https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.2/administration/GUID-6AB240DB-949C-4E95-A9A7-4AC6EF5E3036.html).
