@@ -20,19 +20,19 @@ More information on NSX-T Tags can be found here: [VMware NSX-T Data Center Docu
    
 3. Click the **elipsis(...) (1)** next to the **TestVM-1** VM and click **Edit (2)**.
 
-   ![][Images/edit-testvm1.jpg)
+   ![](Images/edit-testvm1.jpg)
    
 4. Locate the **Tag** area under VM edit section; add a tag with name `Web` (1) and then click on **Add item(s); Web (2)**. Now, click on the **Save (3)** to make the changes.
 
-   ![][Images/testvm1-save-tag.jpg)
+   ![](Images/testvm1-save-tag.jpg)
    
 5. Let us add the same tag for **TestVM-2**;  Click the **elipsis(...) (1)** next to the **TestVM-2** VM and click **Edit (2)**.
 
-   ![][Images/edit-testvm2.jpg)
+   ![](Images/edit-testvm2.jpg)
    
 6. Locate the **Tag** area under VM edit section; add a tag with name `Web` (1) and then click on **Add item(s); Web (2)**. Now, click on the **Save (3)** to make the changes.
 
-   ![][Images/testvm2-save-tag.jpg) 
+   ![](Images/testvm2-save-tag.jpg) 
    
 You have successfully added the Tag to the Virtual Machines, now let's us create a group by Tag name.
 
