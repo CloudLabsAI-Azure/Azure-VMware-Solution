@@ -1,4 +1,4 @@
-# Exercise 1: AVS Connectivity
+# Module 1: AVS Connectivity
 
 Azure VMware Solution offers a private cloud environment accessible from On-Premises and Azure-based resources. Services such as Azure ExpressRoute, VPN connections, or Azure Virtual WAN deliver the connectivity.
 
@@ -8,7 +8,7 @@ Customer needs to have connectivity between their workloads in AVS, existing ser
 
 ![](Images/diag.png)
 
-## Connectivity Options for AVS
+## Task 1: Connectivity Options for AVS
 
 This hands-on lab will show you how to configure the Networking components of an Azure VMware Solution for:
 
@@ -26,7 +26,7 @@ After this lab is complete, you will have built out this scenario below:
   3. Creation of Test VMs to attach to your NSX-T Network Segments.
   4. Explore some advanced NSX-T features like tagging, creation of groups, Distributed Firewall Features.
 
-## Task 1: Deploy Azure VMware Solution (AVS)
+### Exercise 1: Deploy Azure VMware Solution (AVS)
 In this section you will deploy the Azure VMware Solution rom Azure portal, AVS deployment will take 4-5 hours.
 
 1. On Azure portal, click on **Show portal menu** button from upper left corner.
@@ -70,10 +70,7 @@ In this section you will deploy the Azure VMware Solution rom Azure portal, AVS 
    
 9. Once the deployment is succeeded you can verify it from the notification icon of Azure portal from the top right corner near settings gear icon.
 
-## Task 2: AVS Connectivity Options
-
-### Overview
-
+### Exercise 2: AVS Connectivity Options
 In this section you will create a connection between an existing, non-AVS, Virtual Network in Azure and the Azure VMware Solution environment. This allows the jumpbox virtual machine you created to manage key components in the VMware management plane such as vCenter, HCX, and NSX-T. You will also be able to access Virtual Machines deployed in AVS and allow those VMs to access resources deployed in the Hub or Spoke VNet’s, such as Private Endpoints and other Azure VMs or Services.
 
 **Summary**: Generate a new Authorization Key in the AVS ExpressRoute settings, and then create a new Connection from the Virtual Network Gateway in the VNet where the JumpBox is connected to.
@@ -143,7 +140,7 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 
     ![Gateway Connection Succeed](Images/connection-suceed.jpg)
     
-## Task 3: Confirm access from Jumpbox
+### Exercise 3: Confirm access from Jumpbox
 
 1. Now, from **AVS-DC** blade, click on **VMware credentials** (1), then copy **Web client URL of vCenter Server**.
 
