@@ -1,6 +1,6 @@
-# Configure NSX-T to establish connectivity within AVS
+## Task 2: Configure NSX-T to establish connectivity within AVS
 
-## NSX-T on AVS
+### NSX-T on AVS
 After deploying Azure VMware Solution, you can configure an NSX-T network segment from NSX-T Manager or the Azure portal. Once configured, the segments are visible in Azure VMware Solution, NSX-T Manager, and vCenter.
 
 NSX-T comes pre-provisioned by default with an NSX-T Tier-0 gateway in Active/Active mode and a default NSX-T Tier-1 gateway in Active/Standby mode. These gateways let you connect the segments (logical switches) and provide East-West and North-South connectivity. Machines will not have IP addresses until statically or dynamically assigned from a DHCP server or DHCP relay.
@@ -17,7 +17,7 @@ NSX-T comes pre-provisioned by default with an NSX-T Tier-0 gateway in Active/Ac
 
   - Validate connectivity
 
-# Exercise 1: Add DHCP Profile in AVS Private Cloud
+### Exercise 1: Add DHCP Profile in AVS Private Cloud
 A DHCP profile specifies a DHCP server type and configuration. You can use the default profile or create others as needed. A DHCP profile can be used to configure DHCP servers or DHCP relay servers anywhere in your SDDC network.
 
 |AVS NSX-T Details|	  |
@@ -61,7 +61,7 @@ A DHCP profile specifies a DHCP server type and configuration. You can use the d
 
    ![DHCP PROFILE](Images/task2.7.jpg)
 
-# Exercise 2: Add the DHCP Profile to the T1 Gateway
+### Exercise 2: Add the DHCP Profile to the T1 Gateway
 
 NSX-T has the concept of Logical Routers (LR). These Logical Routers can perform both distributed or centralized functions. In AVS, NSX-T is deployed and configured with a default T0 Logical Router and a default T1 Logical Router. The T0 LR in AVS cannot be manipulated by AVS customers, however the T1 LR can be configured however an AVS customer chooses. AVS customers also have the option to add additional T1 LRs as they see fit.
 
@@ -81,7 +81,7 @@ NSX-T has the concept of Logical Routers (LR). These Logical Routers can perform
 
    ![Tier-1 Gateways](Images/task2.11.jpg)
 
-# Exercise 3: Create Network Segment for AVS VM workloads
+### Exercise 3: Create Network Segment for AVS VM workloads
 Network segments are logical networks for use by workload VMs in the SDDC compute network. Azure VMware Solution supports three types of network segments: routed, extended, and disconnected.
 
    - A routed network segment (the default type) has connectivity to other logical networks in the SDDC and, through the SDDC firewall, to external networks.
