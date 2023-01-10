@@ -43,11 +43,11 @@ A DHCP profile specifies a DHCP server type and configuration. You can use the d
 
 4. Once successfully logged in click on **POLICY** on the top right. On the **User Interface Mode Toggle** pop-up, check the **Don't show this again** box and click on **GOT IT!**.
 
-  ![POLICY](Images/task2.4.jpg)
+   ![POLICY](Images/task2.4.jpg)
 
 5. In the **NSX-T Console**, click **Networking**. Select **DHCP** under management and click on **ADD DHCP PROFILE**.
 
-  ![DHCP PROFILE](Images/task2.5.jpg)
+   ![DHCP PROFILE](Images/task2.5.jpg)
 
 6. On the DHCP profile page provide the following details and **Save (4)**.
   
@@ -55,11 +55,11 @@ A DHCP profile specifies a DHCP server type and configuration. You can use the d
    - **Profile Type:** `DHCP Server` **(2)**
    - **Server IP Address:** `10.10.5.1/30` **(3)**
 
- ![DHCP PROFILE](Images/task2.6.jpg)
+      ![DHCP PROFILE](Images/task2.6.jpg)
 
 7. The **DHCP profile** has been added successfully.
 
-  ![DHCP PROFILE](Images/task2.7.jpg)
+   ![DHCP PROFILE](Images/task2.7.jpg)
 
 # Exercise 2: Add the DHCP Profile to the T1 Gateway
 
@@ -67,19 +67,19 @@ NSX-T has the concept of Logical Routers (LR). These Logical Routers can perform
 
 1. In the **NSX-T Console**, click **Networking (1)**. Select **Tier-1 Gateways (2)** under connectivity then click **Eclipse button (3)** and select **Edit (4)**.
 
-  ![NSX-T Console](Images/task2.8.jpg)
+   ![NSX-T Console](Images/task2.8.jpg)
 
 2. On **Tier-1 Gateways** page, click on **Set DHCP Configuration**. 
 
-  ![Tier-1 Gateways](Images/task2.9.jpg)
+   ![Tier-1 Gateways](Images/task2.9.jpg)
 
 3. In **Set DHCP Configuration** pane select **Type** as **DHCP Server (1)** and **DHCP Server Profile** as **Web-DHCP (2)** then click **Save (3)**.
 
-  ![Set DHCP Configuration](Images/task2.10.jpg) 
+   ![Set DHCP Configuration](Images/task2.10.jpg) 
 
 4. On the  **Tier-1 Gateways** page select **Save (1)** and **CLOSE EDITING (2)**.
 
-  ![Tier-1 Gateways](Images/task2.11.jpg)
+   ![Tier-1 Gateways](Images/task2.11.jpg)
 
 # Exercise 3: Create Network Segment for AVS VM workloads
 Network segments are logical networks for use by workload VMs in the SDDC compute network. Azure VMware Solution supports three types of network segments: routed, extended, and disconnected.
@@ -92,7 +92,7 @@ Network segments are logical networks for use by workload VMs in the SDDC comput
 
 1. In the **NSX-T Console**, click **Networking (1)**. Select **Segments** under connectivity ad click on **ADD SEGMENT**.
 
-  ![Segments](Images/task2.12.jpg) 
+   ![Segments](Images/task2.12.jpg) 
 
 2. On the Segments page provide the following details:
 
@@ -103,21 +103,21 @@ Network segments are logical networks for use by workload VMs in the SDDC comput
  
   Select **SET DHCP CONFIG**.
 
-  ![Segments](Images/task2.13.jpg)
+   ![Segments](Images/task2.13.jpg)
 
 3. On **SET DHCP CONFIG** pane under **Gateway DHCP Server** ensure to add the following and click on **APPLY**: 
    
     - **DHCP Config:** `Enabled`
     - **DHCP Server Address:** `10.10.5.1/30` 
-    -  **DHCP Ranges:** 10.10.4.4-10.10.4.254
-    -  **DNS Servers:** `10.10.0.192`
+    - **DHCP Ranges:** 10.10.4.4-10.10.4.254
+    - **DNS Servers:** `10.10.0.192`
 
-  ![Segments](Images/task2.14.jpg)   
+   ![Segments](Images/task2.14.jpg)   
 
 4. Click on **Save**.
 
-  ![Save](Images/task2.15.jpg) 
+   ![Save](Images/task2.15.jpg) 
 
 5. Select **NO** on the **Segment Web-Segment is sucessfully created.**
 
-  ![Segments](Images/task2.16.jpg) 
+   ![Segments](Images/task2.16.jpg) 
