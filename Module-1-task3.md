@@ -5,48 +5,51 @@ Now that we have our networks created, we can deploy virtual machines and ensure
 
 # Exercise 1: Create a Content Library
 
-1. Search **Azure VMware Solution (1)** and then select **Azure VMware Solution (2)**.
+1. Under Resource groups tab, launch **AVS-RG**.
 
-   ![](./Images/3.1.png "Select Azure VMware Solution")
+   ![](Images/select-avs-rg.jpg "Select AVS RG")
 
-1. Select your **Azure VMware Solution**.
-1. On the Azure VMware Solution page click on **VMware credentials (1)** under Manage tab and then copy the **Web client URL**, **Username** and **Password** under vCenter Server Credentials **(2)** and paste it in notepad for later use.
+2. Select your **Azure VMware Solution** `AVS-DC`.
+
+   ![](Images/launch-avs-dc1.jpg "Select AVS RG")
+
+3. On the Azure VMware Solution page; click on **VMware credentials (1)** under Manage tab and then copy the **Web client URL**, **Username** and **Password** under vCenter Server Credentials **(2)** and save it in notepad for later use.
 
    ![](./Images/3.2.jpg)
 
-1. Open a new tab in the Microsoft Edge browser, Enter the **Web Client URL** that you copied in step 3. 
+4. Open a new tab in the Microsoft Edge browser, Enter the **Web Client URL** that you copied in step 3. 
 
    ![](./Images/new3..2.jpg)
 
-1. Log in to the **VMware vSphere**; Enter the **Username** and **password** that you copied in step 3 and click on **LOGIN**.
+5. Log in to the **VMware vSphere**; Enter the **Username** and **password** that you copied in step 3 and click on **LOGIN**.
 
    ![](./Images/3.3.jpg)
 
-1. From AVS vCenter, click on the **Menu (1)** bar and then click on **Content Libraries (2)** under Inventory.
+6. From AVS vCenter, click on the **Menu (1)** bar and then click on **Content Libraries (2)** under Inventory.
 
    ![](./Images/3.4.jpg)
 
-1. click on the **CREATE** button to create the **New Content Libraries**.
+7. click on the **CREATE** button to create the **New Content Libraries**.
 
    ![](./Images/new3.5.png)
 
-1. On the **Name and location** pane; Enter name your Library as **Local-Lib (1)** and click on **NEXT (2)**.
+8. On the **Name and location** pane; Enter name your Library as **Local-Lib (1)** and click on **NEXT (2)**.
 
    ![](./Images/3.5.jpg)
 
-1. On the **Configure content library** pane; Leave it as default and click on **NEXT**.
+9. On the **Configure content library** pane; Leave it as default and click on **NEXT**.
 
    ![](./Images/3.6.jpg)
 
-1. On the **Apply security policy** pane; Leave it as default and click on **NEXT**.
+10. On the **Apply security policy** pane; Leave it as default and click on **NEXT**.
 
    ![](./Images/3.7.jpg)
 
-1. On the **Add storage** pane; Select **Storage (1)** and click on **NEXT (2)**.
+11. On the **Add storage** pane; Select **Storage (1)** and click on **NEXT (2)**.
 
    ![](./Images/3.8.jpg)
 
-1. On the **Ready to complete** pane; Review your content library settings and click on **FINISH**.
+12. On the **Ready to complete** pane; Review your content library settings and click on **FINISH**.
 
    ![](./Images/3.9.jpg)
    
