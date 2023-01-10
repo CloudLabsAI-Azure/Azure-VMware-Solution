@@ -96,14 +96,14 @@ Network segments are logical networks for use by workload VMs in the SDDC comput
 
 2. On the Segments page provide the following details:
 
-  - **Segment Name:**  `Web-Segment` **(1)**
-  - **Connected Gateway:**  `TNT69-T1| Tier1` **(2)**
-  - **Transport Zone:** `TNT69-OVERLAY-TZ` **(3)**
-  - **Subnets:** `10.10.4.1/24` **(4)**
+   - **Segment Name:**  `Web-Segment` **(1)**
+   - **Connected Gateway:**  `TNT69-T1| Tier1` **(2)**
+   - **Transport Zone:** `TNT69-OVERLAY-TZ` **(3)**
+   - **Subnets:** `10.10.4.1/24` **(4)**
  
-  Select **SET DHCP CONFIG**.
+   Select **SET DHCP CONFIG**.
 
-   ![Segments](Images/task2.13.jpg)
+       ![Segments](Images/task2.13.jpg)
 
 3. On **SET DHCP CONFIG** pane under **Gateway DHCP Server** ensure to add the following and click on **APPLY**: 
    
@@ -112,7 +112,7 @@ Network segments are logical networks for use by workload VMs in the SDDC comput
     - **DHCP Ranges:** 10.10.4.4-10.10.4.254
     - **DNS Servers:** `10.10.0.192`
 
-   ![Segments](Images/task2.14.jpg)   
+       ![Segments](Images/task2.14.jpg)   
 
 4. Click on **Save**.
 
