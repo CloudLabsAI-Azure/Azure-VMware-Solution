@@ -100,10 +100,9 @@ Network segments are logical networks for use by workload VMs in the SDDC comput
    - **Connected Gateway:**  `TNT69-T1| Tier1` **(2)**
    - **Transport Zone:** `TNT69-OVERLAY-TZ` **(3)**
    - **Subnets:** `10.10.4.1/24` **(4)**
- 
    Select **SET DHCP CONFIG**.
 
-       ![Segments](Images/task2.13.jpg)
+   ![Segments](Images/task2.13.jpg)
 
 3. On **SET DHCP CONFIG** pane under **Gateway DHCP Server** ensure to add the following and click on **APPLY**: 
    
