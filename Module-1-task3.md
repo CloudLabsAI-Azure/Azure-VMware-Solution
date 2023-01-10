@@ -1,4 +1,4 @@
-## Create Test VMs and connect to Segment
+## Task 3: Create Test VMs and connect to Segment
 
 ### Create Test VMs
 Now that we have our networks created, we can deploy virtual machines and ensure we can get an IP address from DHCP. Go ahead and Login into your AVS vCenter.
@@ -85,7 +85,7 @@ Now that we have our networks created, we can deploy virtual machines and ensure
 
 2. On the **Select a name and folder** pane; enter the Virtual machine name as `TestVM-1` **(1)** and then Select a location for the virtual machine i.e. **SDDC-Datacenter (2)**, and then, click on **NEXT (3)**.
 
-   ![](./Images/3.16.jpg)
+   ![](./Images/TestVM-1.jpg)
 
 3. On the **Select a compute resource** pane; Select the destination compute resource for this operation i.e. **Cluster-1 (1)** and click on **NEXT (3)**.
 
@@ -114,3 +114,67 @@ Now that we have our networks created, we can deploy virtual machines and ensure
 9. Repeat the above steps and create a new VM with name **TestVM-2**.
 
    ![](./Images/TestVM-2.jpg)
+
+### Exercise 4: Connect to the VMs
+
+In this task you will be connecting to the VMs using **Putty (SSH Tool)**, which is already installed in the **JumpBox** which is already connected with lab environment.
+
+1. From the **JumpBox**, from start menu search `Putty` **(1)** and then click on **Putty (2)**
+
+   ![](Images/search-putty-startmenu.jpg)
+   
+2. Enter the Private-IP of **TestVM-1** VM in Host Name in putty tool and then click on **Open (2)**.
+   * Host Name (or IP address): `10.10.4.4`
+    
+     ![](Images/enter-testvm1-ip.jpg)
+     
+3. Click on **Accept** to proceed with the **PuTTY Security Alert**
+
+   ![](Images/accept-putty-aleartvm1.jpg)
+   
+4. Next, enter teh VM username and password as below and then provide new password to which you want to change the existing password.
+
+   * Login as: Enter `root`
+   * Password: `AVSR0cks!`
+   * New Password: `demo@pass123`
+   * Retype New Password: `demo@pass123`
+
+     ![](Images/connect-and-reset-password-vm1.jpg)
+ 
+5. Run the following commands to enable ICMP traffic on the VM:
+
+    ```
+       iptables -A OUTPUT -p icmp -j ACCEPT
+       iptables -A INPUT -p icmp -j ACCEPT
+    ```
+
+6. From the **JumpBox**, from start menu search `Putty` **(1)** and then click on **Putty (2)** and open one more putty session for **TestVM-2**.
+
+   ![](Images/search-putty-startmenu.jpg)
+   
+7. Enter the Private-IP of **TestVM-2** VM in Host Name in putty tool and then click on **Open (2)**.
+   * Host Name (or IP address): `10.10.4.5`
+    
+     ![](Images/enter-testvm2-ip.jpg)
+     
+8. Click on **Accept** to proceed with the **PuTTY Security Alert**
+
+   ![](Images/accept-putty-aleartvm1.jpg)
+   
+9. Next, enter the VM username and password as below and then provide new password to which you want to change the existing password.
+
+   * Login as: Enter `root`
+   * Password: `AVSR0cks!`
+   * New Password: `demo@pass123`
+   * Retype New Password: `demo@pass123`
+
+     ![](Images/connect-and-reset-password-vm2.jpg)
+ 
+10. Run the following commands to enable ICMP traffic on the VM:
+
+    ```
+       iptables -A OUTPUT -p icmp -j ACCEPT
+       iptables -A INPUT -p icmp -j ACCEPT
+    ```
+
+
