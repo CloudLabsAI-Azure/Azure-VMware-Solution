@@ -19,7 +19,7 @@ Now that we have our networks created, we can deploy virtual machines and ensure
 
 4. Open VMware vSphere tab where you have logged in earlier. If not opened then follow the below steps to re-login. You can skip next two steps if VMware vSphere is already logged in.
 
-5. Open a new tab in the Microsoft Edge browser, Enter the **Web Client URL** that you copied in step 3. 
+5. Open a new tab in the Microsoft Edge browser, Enter the **Web Client URL** that you copied in step 3, You may see a warning `Your connection isn't private`, then click on **Advanced** button and proceed with **Continue to 10.10.0.2 (unsafe)**. 
 
    ![](./Images/new3..2.jpg)
 
