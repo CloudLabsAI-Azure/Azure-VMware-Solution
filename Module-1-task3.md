@@ -17,39 +17,41 @@ Now that we have our networks created, we can deploy virtual machines and ensure
 
    ![](./Images/3.2.jpg)
 
-4. Open a new tab in the Microsoft Edge browser, Enter the **Web Client URL** that you copied in step 3. 
+4. Open VMware vSphere tab where you have logged in earlier. If not opened then follow the below steps to re-login. You can skip next two steps if VMware vSphere is already logged in.
+
+5. Open a new tab in the Microsoft Edge browser, Enter the **Web Client URL** that you copied in step 3. 
 
    ![](./Images/new3..2.jpg)
 
-5. Log in to the **VMware vSphere**; Enter the **Username** and **password** that you copied in step 3 and click on **LOGIN**.
+6. Log in to the **VMware vSphere**; Enter the **Username** and **password** that you copied in step 3 and click on **LOGIN**.
 
    ![](./Images/3.3.jpg)
 
-6. From AVS vCenter, click on the **Menu (1)** bar and then click on **Content Libraries (2)** under Inventory.
+7. From AVS vCenter, click on the **Menu (1)** bar and then click on **Content Libraries (2)** under Inventory.
 
    ![](./Images/3.4.jpg)
 
-7. click on the **CREATE** button to create the **New Content Libraries**.
+8. click on the **CREATE** button to create the **New Content Libraries**.
 
    ![](./Images/new3.5.png)
 
-8. On the **Name and location** pane; Enter name your Library as **Local-Lib (1)** and click on **NEXT (2)**.
+9. On the **Name and location** pane; Enter name your Library as **Local-Lib (1)** and click on **NEXT (2)**.
 
    ![](./Images/3.5.jpg)
 
-9. On the **Configure content library** pane; Leave it as default and click on **NEXT**.
+10. On the **Configure content library** pane; Leave it as default and click on **NEXT**.
 
    ![](./Images/3.6.jpg)
 
-10. On the **Apply security policy** pane; Leave it as default and click on **NEXT**.
+11. On the **Apply security policy** pane; Leave it as default and click on **NEXT**.
 
    ![](./Images/3.7.jpg)
 
-11. On the **Add storage** pane; Select **Storage (1)** and click on **NEXT (2)**.
+12. On the **Add storage** pane; Select **Storage (1)** and click on **NEXT (2)**.
 
    ![](./Images/3.8.jpg)
 
-12. On the **Ready to complete** pane; Review your content library settings and click on **FINISH**.
+13. On the **Ready to complete** pane; Review your content library settings and click on **FINISH**.
 
    ![](./Images/3.9.jpg)
    
