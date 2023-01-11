@@ -117,6 +117,8 @@ You can find more information on NSX-T Groups on [VMware’s NSX-T Data Center d
 11. You can also change this option to **Drop** where the packet is completely dropped by the second VM.
 
 
-
+#### Summary: 
+In this task: 
+ * You have created the NSX-T tag for grouping the simmillar kind of VMs using the tags and configure the Distributed firewall policy on a complete group.
    
 
