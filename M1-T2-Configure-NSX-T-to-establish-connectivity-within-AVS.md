@@ -122,7 +122,7 @@ Network segments are logical networks for use by workload VMs in the SDDC comput
    ![Segments](Images/task2.16.jpg) 
    
 #### Summary:
-In this lab:
+In this lab you have performed beow steps to setup the networking for the private cloud, so VMs which will get created later in this lab can get private IPs and communicate.
   * First you have added the DHCP Profile in AVS Private Cloud.
   * Added the DHCP Profile to the T1 Gateway.
   * Created Network Segment for AVS VM workloads.
