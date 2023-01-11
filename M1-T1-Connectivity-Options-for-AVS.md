@@ -136,9 +136,9 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 
      ![NSX-T-Manager](Images/NSX-T-Manager.jpg)  
           
+#### Summary:
 In this task, you have configured the connectivity between **AVS Private cloud** and the **JumpBox-vNet** using the Azure **Virtual network gateway** connection.
 
 #### References:
-
 [Tutorial - Configure networking for your VMware private cloud in Azure - Azure VMware Solution | Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-vmware/tutorial-configure-networking#connect-expressroute-to-the-virtual-network-gateway)
  
