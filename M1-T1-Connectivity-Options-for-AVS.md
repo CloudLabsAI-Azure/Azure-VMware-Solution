@@ -135,5 +135,7 @@ In this section you will create a connection between an existing, non-AVS, Virtu
     * https://10.10.0.3/
 
      ![NSX-T-Manager](Images/NSX-T-Manager.jpg)  
+          
+In this task, you have configured the connectivity between **AVS Private cloud** and the **JumpBox-vNet** using the Azure **Virtual network gateway** connection.
    
    
