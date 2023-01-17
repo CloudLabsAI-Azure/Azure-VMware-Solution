@@ -27,7 +27,7 @@ In this module, we will go through the steps to Install HCX, configure and migra
 
 ## Exercise 1: Enable HCX on AVS Private Cloud
 
-In the following task, we will be installing HCX on your AVS Private Cloud. This is a simple process from the Add-ons section in the Azure Portal, or via Bicep/ARM/PowerShell.
+In the following task, we will be installing HCX on your AVS Private Cloud. This is a simple process from the Add-ons section in the Azure Portal. This can also be achieved via Bicep/ARM/PowerShell.
 
 > **NOTE:** This task may or may not have been completed for you in your AVS environment. Only one participant per group can enable HCX in the SDDC so if you’re not the first participant in the group to enable HCX, just use these instructions for reference.
 
