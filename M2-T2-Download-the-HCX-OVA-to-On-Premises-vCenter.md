@@ -17,6 +17,14 @@ The next step after installing HCX on your AVS Private Cloud, is to download HCX
     
     ![](./Images/Mod2Task2Pic3.png)
     
- 4.  Enter the cloudadmin credentials obtained in **Step 1** and **LOG IN**.  
+4. Enter the cloudadmin credentials obtained in **Step 1** and **LOG IN**.  
 
-     ![](./Images/Mod2Task2Pic4.png)
+    ![](./Images/Mod2Task2Pic4.png)
+
+5. In the Dashboard pane under **Administration** click on **System Updates (1)**. Select the **Current version (2)** available in the **Loacal HCX**. Then click on **REQUEST DOWNLOAD LINK (3)**.
+
+   ![](./Images/Mod2Task2Pic5.png)
+   
+6. Select **VMware HCX** to download the HCX OVA.
+
+   ![](./Images/Mod2Task2Pic6.png)
