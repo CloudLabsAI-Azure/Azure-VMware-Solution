@@ -33,12 +33,17 @@ In the following task, we will be installing HCX on your AVS Private Cloud. This
 
 1. Navigate to the [**Azure Portal**](http://portal.azure.com/), search for **Azure VMware Solution (1)** in the search bar and click on **Azure VMware Solution (2)**.
 
-  ![](Images/Mod2Task1Pic1.png)
+   ![](Images/Mod2Task1Pic1.png)
   
 2. Select **AVS-DC (1)** private cloud.
   
-  ![](Images/Mod2Task1Pic2.png)
+   ![](Images/Mod2Task1Pic2.png)
   
 3. From your Private Cloud blade, click on **+ Add-ons (1)** under **Manage** section. Then click **Migration using HCX (2)**. Select the checkbox to agree with terms and conditions **(3)**. Click on **Enable and deploy (4)**.
   
-  ![](Images/Mod2Task1Pic3.png)
+   ![](Images/Mod2Task1Pic3.png)
+   
+4. HCX will start getting deployed in your **AVS Private Cloud** and it will take about 10-20 minutes to complete. Once the deployment is completed click on **Go to resource**.
+
+   ![](Images/Mod2Task1Pic4.png)
+
