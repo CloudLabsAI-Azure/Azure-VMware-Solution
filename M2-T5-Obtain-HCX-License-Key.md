@@ -15,4 +15,4 @@ While the HCX installation runs, we will need to obtain a license key to activat
    
 4. Now, click on **Status (1)** and copy the **Activation Key (2**) and save it in Notepad for later use.
 
-     ![](./Images/Mod2Task5Pic3.png)
+     ![](./Images/Mod2Task5Pic3.1.png)
