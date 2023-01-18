@@ -40,4 +40,23 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
   
      ![](Images/Mod2Task4Pic9.png)
 
-10.    
+10.  Next on **9 Customize template** provide and following details and click **Next**.
+
+       |Property| Value| 
+       |---|---|
+       |CLI “admin” User Password/root Password| MSFTavs1!|
+       |Hostname| hcx-connector|
+       |Network 1 IPv4 Address| 10.10.4.100|
+       |Network 1 IPv4 Prefix Length| 24|
+       |Default IPv4 Gateway| 10.10.4.1|
+       |DNS Server list| 1.1.1.1|
+       |Enable SSH| Enabled|
+ 
+  ![](Images/Mod2Task4Pic10.1.png)
+     
+  ![](Images/Mod2Task4Pic10.2.png)
+     
+  ![](Images/Mod2Task4Pic10.3.png)
+    
+  ![](Images/Mod2Task4Pic10.4.png)
+   
