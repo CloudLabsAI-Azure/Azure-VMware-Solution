@@ -34,3 +34,20 @@ In this step we will import the HCX appliance into the on premises vCenter. We c
 5. Log in to the **VMware vSphere**; Enter the **Username** and **password** that you copied in step 3 and click on **LOGIN**.
 
    ![](./Images/3.3.jpg)    
+
+6. From AVS vCenter, click on the **Menu (1)** bar and then click on **Content Libraries (2)** under Inventory.
+
+   ![](./Images/3.4.jpg)
+
+7. In the **Content Libraries**, select **Local-Lib**.   
+
+   ![](./Images/Mod2Task3Pic2.png)
+   
+8. Enter the URL you copied earlier for **Source file (1)**, and click on **IMPORT**.
+    
+    ![](./Images/Mod2Task3Pic3.png)
+    
+9. On the SSL certificate click on **Actions** and select **Continue**. 
+
+    ![](./Images/Mod2Task3Pic4.png)
+        
