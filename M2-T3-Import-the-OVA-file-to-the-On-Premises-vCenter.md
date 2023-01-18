@@ -51,6 +51,6 @@ In this step we will import the HCX appliance into the on premises vCenter. We c
 
     ![](./Images/Mod2Task3Pic4.png)
         
-10. The HCX OVA will download to the library in the background.
+10. The **HCX OVA** will download to the library in the background.
 
     ![](./Images/Mod2Task3Pic5.png)
