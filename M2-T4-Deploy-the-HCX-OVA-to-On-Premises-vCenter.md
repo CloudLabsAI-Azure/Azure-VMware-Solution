@@ -3,3 +3,41 @@
 ## Deploy HCX OVA
 
 In this step, we will deploy the HCX VM with the configuration from the On-Premises VMware Lab Environment section.
+
+# Exercise 1: Deploy HCX from Content Library
+
+1. Once the import is completed from the previous task, click on **Menu** and select **Inventory**. 
+
+    ![](Images/Mod2Task4Pic1.png)
+    
+2. Right click on **SDDC-Datacenter** and select **New Virtual Machine**.
+
+    ![](Images/Mod2Task4Pic2.png)
+   
+3. Select **Deploy from template** for **1 Select a creation type** and click on **Next**.
+
+    ![](Images/Mod2Task4Pic3.png)
+    
+4. Next on **2 Select a template** select **VMware-HCX-Connector**, and click on **Next**.    
+
+    ![](Images/Mod2Task4Pic4.png)
+    
+5. Enter **HCX-Connector** as the **Virtual machine name** in **3 Select a name and folder** and click **Next**.  
+
+     ![](Images/Mod2Task4Pic5.png) 
+     
+6. On the **4 Select a compute resource** select **Cluster-1** and click on **Next**.
+
+     ![](Images/Mod2Task4Pic6.png)
+     
+7. Click **Next** on **5 Review details**, In **6 License Agreement** accept the agreement and click **Next**.
+
+8. Next for **7 Select storage** select the available storage and click **Next**.
+
+    ![](Images/Mod2Task4Pic8.png)
+  
+9. For **8 Select networks** set the **Destination Network** as **Web-Segment** and click **Next**.
+  
+     ![](Images/Mod2Task4Pic9.png)
+
+10.    
