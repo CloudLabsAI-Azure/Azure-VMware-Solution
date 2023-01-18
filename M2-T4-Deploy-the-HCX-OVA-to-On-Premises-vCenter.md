@@ -60,3 +60,10 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
     
   ![](Images/Mod2Task4Pic10.4.png)
    
+11. On **10 Ready to complete** click on **FINISH** to complete the setup of new virtual machine.
+
+   ![](Images/Mod2Task4Pic11.png)
+   
+12. Once done, navigate to newly created **HCX-Connector VM** and **Power on**. The boot process may take 10-15 minutes to complete.   
+
+   ![](Images/Mod2Task4Pic12.png)
