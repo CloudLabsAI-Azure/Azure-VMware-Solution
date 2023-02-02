@@ -27,3 +27,29 @@ More information can be found inf VMware’s Official Documentation, [Creating a
 4. On **Select Services to be activated** leave the Default Services and click **CONTINUE**.
 
     ![](Images/Mod2Task11Pic4.png)
+
+5. For **Select Source Site Uplink Network Profile(s)** select **Uplink** network profile, click **CLOSE**. Then for **Select Destination Site Uplink Network Profile(s)** select the Destination Uplink Network Profile (usually TNTXX-HCX-UPLINK), click **CLOSE** and click **CONTINUE**.
+
+    ![](Images/Mod2Task11Pic5.png)
+
+6. In **Advanced Configuration – Network Extension Appliance Scale Out**, keep the defaults and then click **CONTINUE**.
+
+    ![](Images/Mod2Task11Pic6.png)
+
+7. In **Advanced Configuration – Traffic Engineering**, review, leave the defaults and click **CONTINUE**.
+
+    ![](Images/Mod2Task11Pic7.png)
+
+8. Review the topology preview and click **CONTINUE**.
+
+    ![](Images/Mod2Task11Pic8.png)
+
+9. Enter a name for your Service Mesh as `HCX-OnPrem`. Click **FINISH**.
+
+    ![](Images/Mod2Task11Pic9.png)
+
+10. The Service Mesh deployment will take 5-10 minutes to complete. Once successful, you will see the services as green. Click on **VIEW APPLIANCES**. 
+
+     ![](Images/Mod2Task11Pic10.png)
+
+11. You’re ready to migrate and protect on-premises VMs to Azure VMware Solution using VMware HCX. Azure VMware Solution supports workload migrations (with or without a network extension). So you can still migrate workloads in your vSphere environment, along with On-Premises creation of networks and deployment of VMs onto those networks. For more information, see the [VMware HCX Documentation](https://docs.vmware.com/en/VMware-HCX/index.html).
