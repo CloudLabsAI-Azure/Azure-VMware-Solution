@@ -17,3 +17,21 @@ For more information please visit VMware’s documentation for [Extending Networ
 Once the Service Mesh appliances have been deployed, the next important step is to extend the on-premises network(s) to AVS, so that any migrated VM’s will be able to retain their existing IP address.
 
 # Exercise 1: Create a Network Extension
+
+1. Navigate to **Network Extension**. Click **CREATE A NETWORK EXTENSION**.
+
+    ![](Images/Mod2Task12Pic1.png)
+
+2. For **Select Service Mesh** ensure you select your own Service Mesh you created in an earlier step. Select **Workload-Web** network. Click **NEXT**.
+
+     ![](Images/Mod2Task12Pic2.png)
+
+3. Under **Source Network to Extend** for **Gateway IP Address / Prefix Length** enter the OnPrem-workload IP address `192.168.0.1/24`. Ensure your own **Extension Appliance** is selected. Select your own T1 under **Destination First Hop Router** (usually **TNTXY-T1**) and click **SUBMIT**.
+
+    ![](Images/Mod2Task12Pic3.png)
+
+    > **Note**: It might take 5-10 minutes for the Network Extension to complete.
+
+4. Confirm the status of the Network Extension as **Extension complete**.
+
+    ![](Images/Mod2Task12Pic4.png)
