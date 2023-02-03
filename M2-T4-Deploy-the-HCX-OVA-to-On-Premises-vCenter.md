@@ -40,7 +40,7 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
 
 9. Accept the license on **5 License agreements** and click **Next**.
 
-       ![](Images/Mod2Task4Op1Pic8.png)
+      ![](Images/Mod2Task4Op1Pic8.png)
         
 10. On **6 Select storage**, for **Select virtual disk format** select  **Thin Provision** from the drop-down then select **TrueNAS** datastore and click **Next**.
 
