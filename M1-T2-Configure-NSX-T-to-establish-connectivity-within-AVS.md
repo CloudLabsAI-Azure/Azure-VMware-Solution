@@ -61,13 +61,44 @@ A DHCP profile specifies a DHCP server type and configuration. You can use the d
 
    ![DHCP PROFILE](Images/task2.7.jpg)
 
-### Exercise 2: Add the DHCP Profile to the T1 Gateway
+## Exercise 2: Create an NSX-T T1 Logical Router
+NSX-T has the concept of Logical Routers (LR). These Logical Routers can perform both distributed or centralized functions. In AVS, NSX-T is deployed and configured with a default T0 Logical Router and a default T1 Logical Router. The T0 LR in AVS cannot be manipulated by AVS customers, however the T1 LR can be configured however an AVS customer chooses. AVS customers also have the option to add additional T1 LRs as they see fit.
+
+   ![NSX-T Console](Images/logicalRouter.png)
+
+1. In the **NSX-T Console**, click **Networking (1)**. Select **Tier-1 Gateways (2)** under connectivity, then click **ADD TIER-1 GATEWAY (3)**.
+
+   ![NSX-T Console](Images/add_tier-1_Gateway.png)
+   
+2. Enter the following detail on the create the Tier-1 Gateway
+ 
+    - **Tier-1 Gateway a Name**:  `  `.
+    - **Linked Tier-0 Gateway**: Select the default T0 Gateway.   
+    - **Edge Cluster**: Select the available cluster from the drop down.
+    
+   ![NSX-T Console](Images/tier_gateway.1.png)
+
+3. Next under **Route Advertisement** enable the following and click in **Save**.
+    
+      - All Static Routes
+      - All DNS Forwarder Routes
+      - All Connected Segments & Service Ports
+      - All IPSec Local Endpoints
+      - All NAT IP's
+
+   ![NSX-T Console](Images/Route_Advertisement.png)
+
+4. Select **NO** on the **Tier-1 Gateway Lab-T1** is sucessfully created.
+
+   ![NSX-T Console](Images/continue_tier_gateway.png)
+
+### Exercise 3: Add the DHCP Profile to the T1 Gateway
 
 NSX-T has the concept of Logical Routers (LR). These Logical Routers can perform both distributed or centralized functions. In AVS, NSX-T is deployed and configured with a default T0 Logical Router and a default T1 Logical Router. The T0 LR in AVS cannot be manipulated by AVS customers, however the T1 LR can be configured however an AVS customer chooses. AVS customers also have the option to add additional T1 LRs as they see fit.
 
-1. In the **NSX-T Console**, click **Networking (1)**. Select **Tier-1 Gateways (2)** under connectivity then click **Eclipse button (3)** and select **Edit (4)**.
+1. In the **NSX-T Console**, click **Networking (1)**. Select **Segments** under connectivity ad click on **ADD SEGMENT**.
 
-   ![NSX-T Console](Images/task2.8.jpg)
+   ![Segments](Images/task2.12.jpg) 
 
 2. On **Tier-1 Gateways** page, click on **Set DHCP Configuration**. 
 
