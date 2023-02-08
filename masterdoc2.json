@@ -44,11 +44,11 @@
         "Order": 10
       },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M2-T12-Network-Extension.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M2-T11-Create-a-service-mesh.md",
         "Order": 11
       },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M2-T04-Deploy-the-HCX-OVA-to-On-Premises-vCenter.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M2-T12-Network-Extension.md",
         "Order": 12
       },
        {
