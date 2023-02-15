@@ -20,7 +20,7 @@ In a real customer environment, these will have been planned and identified prev
 
 1. Navigate to **Interconnect** on **vShpere client** page. Click on **Network Profiles** and select **CREATE NETWORK PROFILE**.
 
- - We will create  separate network profiles:
+   - We will create following network profiles:
       
       - Management
       - vMotion
@@ -30,21 +30,21 @@ In a real customer environment, these will have been planned and identified prev
 
 2. Select **Distributed Port Groups** then select **Management Network**. Enter the **Management Network IP** range from the table below. Click **CREATE**.
 
-   | Property | Value|
-   |---|---|
-   | Management Network IP| 192.168.0.151-192.168.0.155 |
-   | Prefix Length| 24|
-   | Management Network Gateway| 192.168.0.1|
-   |Primary DNS	| 8.8.8.8|‭
-   |Secondary DNS | ‬1.1.1.1|
+    | Property | Value|
+    |---|---|
+    | Management Network IP| 192.168.0.151-192.168.0.155 |
+    | Prefix Length| 24|
+    | Management Network Gateway| 192.168.0.1|
+    |Primary DNS	| 8.8.8.8|‭
+    |Secondary DNS | ‬1.1.1.1|
    
-   ![](Images/Mod2Task9Pic2.png)
+    ![](Images/Mod2Task9Pic2.png)
    
-3. Now, back on the **Interconnect** pane select **CREATE NETWORK PROFILE**.  
+3. Now, go back the **Interconnect** pane, select **CREATE NETWORK PROFILE**.  
 
     ![](Images/Mod2Task9Pic3.png)
    
-4.  Select **Distributed Port Groups** then select **vMotion Network**. Enter the **vMotion Network IP** range from the table below. Click **CREATE**.
+4. Select **Distributed Port Groups** then select **vMotion Network**. Enter the **vMotion Network IP** range from the table below. Click **CREATE**.
 
      | Property | Value|
      |---|---|
