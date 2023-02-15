@@ -20,10 +20,10 @@ In this module, we will go through the steps to Install HCX, configure and migra
 
 # Prerequisites
  * Ensure that Module 1 has been completed successfully as this will be required to connect HCX from AVS to the On-Premises Lab.
- * Jumphost from AVS should be able to ping following ip addresses:
+ * JumpBox from AVS should be able to ping following ip addresses:
     - AVS vCenter: get from the Azure Portal
     - On-prem vCenter: 10.X.Y.2
-# Task 1 : Install VMware HCX on AVS Private Cloud
+# Task 1: Install VMware HCX on AVS Private Cloud
 
 ## Exercise 1: Enable HCX on AVS Private Cloud
 
