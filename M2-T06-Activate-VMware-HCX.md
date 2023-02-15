@@ -6,10 +6,11 @@ In this task, we will activate the On-Premises HCX appliance that we just deploy
 
 1. Browse to the On-Premises HCX Manager IP `https://10.10.4.100:9443` **(1)** specified in Task 4 on port 9443 IP.
 
-2. Login using the HCX Credentials, and **LOG IN (4)**.
+2. Use the HCX credentials to login to HCX Manager.
    
-   - Username: admin **(2)**
-   - Password: MSFTavs1! **(3)**
+   - Username **(2)**: admin
+   - Password **(3)**: MSFTavs1!
+   - Click on LOG IN **(4)**.
 
    ![](./Images/Mod2Task6Pic1.png)
 
@@ -23,7 +24,7 @@ In this task, we will activate the On-Premises HCX appliance that we just deploy
 
    ![](./Images/Mod2Task6Pic3.png)
    
-5. On the **System Name** page leave default and click on **Continue**.
+5. Leave default value for **System Name** and click on **Continue**.
 
     ![](./Images/Mod2Task6Pic4.png)
     
