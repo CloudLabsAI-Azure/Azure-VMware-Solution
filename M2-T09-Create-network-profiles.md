@@ -18,10 +18,7 @@ In a real customer environment, these will have been planned and identified prev
 
 # Exercise 1: Create Network Profiles
 
-1. Navigate to **Interconnect** on **vShpere client** page. Click on **Network Profiles** and select **CREATE NETWORK PROFILE**.
-
-   - We will create following network profiles:
-      
+1. Navigate to **Interconnect** on **vShpere client** page. Click on **Network Profiles** and select **CREATE NETWORK PROFILE**. You will create following network profiles:      
       - Management
       - vMotion
       - Uplink
