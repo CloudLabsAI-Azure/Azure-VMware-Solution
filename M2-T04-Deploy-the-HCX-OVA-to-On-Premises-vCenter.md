@@ -6,7 +6,7 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
 
 # Option 1: Deploy OVA from download.
 
-1. Once the import is completed from the previous task, click on **Menu** and select **Inventory**. 
+1. Once the import is completed from the previous task, click on **Menu**,  and select **Inventory**. 
 
     ![](Images/Mod2Task4Pic1.png)
 
@@ -14,7 +14,7 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
 
      ![](Images/Mod2Task4Op1Pic1.png)
 
-3. On **1 Select an OVF template** pane select **Local file** and click **UPLOAD FILES**. 
+3. On **Select an OVF template** pane select **Local file** and click **UPLOAD FILES**. 
 
      ![](Images/Mod2Task4Op1Pic2.png)
 
@@ -22,35 +22,35 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
 
       ![](Images/Mod2Task4Op1Pic3.png)
        
-5.  CLick **Next**.
+5. Click **Next**.
 
       ![](Images/Mod2Task4Op1Pic4.png)
 
-6. On **2 Select a name and folder**, Enter **VMware-HCX-Connector** for **Virtual machine name** and click **Next**.
+6. On **Select a name and folder**, Enter **VMware-HCX-Connector** for **Virtual machine name** and click **Next**.
 
       ![](Images/Mod2Task4Op1Pic5.png)      
 
-7. Leave default on **3 Select a compute resource** and click **Next**.
+7. Leave default on **Select a compute resource** and click **Next**.
 
       ![](Images/Mod2Task4Op1Pic6.png)
 
-8. On **4 Review details** click **Next**.
+8. On **Review details** click **Next**.
 
       ![](Images/Mod2Task4Op1Pic7.png)
 
-9. Accept the license on **5 License agreements** and click **Next**.
+9. Accept the license on **License agreements** and click **Next**.
 
       ![](Images/Mod2Task4Op1Pic8.png)
         
-10. On **6 Select storage**, for **Select virtual disk format** select  **Thin Provision** from the drop-down then select **TrueNAS** datastore and click **Next**.
+10. On **Select storage**, for **Select virtual disk format** select  **Thin Provision** from the drop-down then select **TrueNAS** datastore and click **Next**.
 
        ![](Images/Mod2Task4Op1Pic9.png)
 
-11. Next for **7 Select networks** set **Management** as the **Destination Network** and click **Next**.
+11. Next for **Select networks** set **Management** as the **Destination Network** and click **Next**.
 
        ![](Images/Mod2Task4Op1Pic10.png)
 
-12. Next on **8 Customize template** provide and following details and click **Next**.   
+12. Next on **Customize template** provide and following details and click **Next**.   
     
        |Property| Value| 
        |---|---|
@@ -69,7 +69,7 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
       
       ![](Images/Mod2Task4Op1Pic11.3.png)
 
-13. On **9 Ready to complete** click on **FINISH** to complete the setup.
+13. On **Ready to complete** click on **FINISH** to complete the setup.
 
        ![](Images/Mod2Task4Op1Pic12.png)
 
@@ -79,7 +79,7 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
 
 # Option 2: Deploy HCX from Content Library
 
-1. Once the import is completed from the previous task, click on **Menu** and select **Inventory**. 
+1. Once the import is completed from the previous task, click on **Menu**, and select **Inventory**. 
 
     ![](Images/Mod2Task4Pic1.png)
     
@@ -87,33 +87,33 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
 
     ![](Images/Mod2Task4Pic2.png)
    
-3. Select **Deploy from template** for **1 Select a creation type** and click on **Next**.
+3. Select **Deploy from template** for **Select a creation type** and click on **NEXT**.
 
     ![](Images/Mod2Task4Pic3.png)
     
-4. Next on **2 Select a template** select **VMware-HCX-Connector**, and click on **Next**.    
+4. Next on **Select a template** select **VMware-HCX-Connector** and click on **NEXT**.    
 
     ![](Images/Mod2Task4Pic4.png)
     
-5. Enter **HCX-Connector** as the **Virtual machine name** in **3 Select a name and folder** and click **Next**.  
+5. Enter **HCX-Connector** as the **Virtual machine name** in **Select a name and folder** and click **NEXT**.  
 
-     ![](Images/Mod2Task4Pic5.png) 
+    ![](Images/Mod2Task4Pic5.png) 
      
-6. On the **4 Select a compute resource** select **Cluster-1** and click on **Next**.
+6. On the **Select a compute resource** select **Cluster-1** and click on **NEXT**.
 
-     ![](Images/Mod2Task4Pic6.png)
+    ![](Images/Mod2Task4Pic6.png)
      
-7. Click **Next** on **5 Review details**, In **6 License Agreement** accept the agreement and click **Next**.
+7. Click **Next** on **Review details**, In **6 License Agreement** accept the agreement and click **NEXT**.
 
-8. Next for **7 Select storage** select the available storage and click **Next**.
+8. Next for **Select storage** select the available storage and click **NEXT**.
 
     ![](Images/Mod2Task4Pic8.png)
   
-9. For **8 Select networks** set the **Destination Network** as **Web-Segment** and click **Next**.
+9. For **Select networks** set the **Destination Network** as **Web-Segment** and click **NEXT**.
   
-     ![](Images/Mod2Task4Pic9.png)
+    ![](Images/Mod2Task4Pic9.png)
 
-10.  Next on **9 Customize template** provide and following details and click **Next**.
+10.  Next on **Customize template** provide and following details and click **NEXT**.
 
        |Property| Value| 
        |---|---|
@@ -125,18 +125,18 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
        |DNS Server list| 1.1.1.1|
        |Enable SSH| Enabled|
  
-  ![](Images/Mod2Task4Pic10.1.png)
+     ![](Images/Mod2Task4Pic10.1.png)
      
-  ![](Images/Mod2Task4Pic10.2.png)
+     ![](Images/Mod2Task4Pic10.2.png)
      
-  ![](Images/Mod2Task4Pic10.3.png)
+     ![](Images/Mod2Task4Pic10.3.png)
     
-  ![](Images/Mod2Task4Pic10.4.png)
+     ![](Images/Mod2Task4Pic10.4.png)
    
 11. On **10 Ready to complete** click on **FINISH** to complete the setup of new virtual machine.
 
-   ![](Images/Mod2Task4Pic11.png)
+     ![](Images/Mod2Task4Pic11.png)
    
 12. Once done, navigate to newly created **HCX-Connector VM** and **Power on**. The boot process may take 10-15 minutes to complete.   
 
-   ![](Images/Mod2Task4Pic12.png)
+     ![](Images/Mod2Task4Pic12.png)
