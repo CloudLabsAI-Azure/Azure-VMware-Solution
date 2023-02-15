@@ -103,7 +103,7 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
 
     ![](Images/Mod2Task4Pic6.png)
      
-7. Click **Next** on **Review details**, In **6 License Agreement** accept the agreement and click **NEXT**.
+7. Click **Next** on **Review details**, in **License Agreement** accept the agreement and click **NEXT**.
 
 8. Next for **Select storage** select the available storage and click **NEXT**.
 
