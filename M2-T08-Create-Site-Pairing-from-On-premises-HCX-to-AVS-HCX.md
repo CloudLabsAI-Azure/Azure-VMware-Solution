@@ -18,15 +18,15 @@ In this task, we will be creating the Site Pairing to connect the On-Premises HC
 
     ![](Images/Mod2Task8Pic3.png)
 
-  > **Note**: The Remote HCX URL is found under the **Add-ons** blade and it is NOT the vCenter URL.
-  >   
-  >   ![](Images/Mod2Task8Pic3.1.png)
+     > **Note**: The Remote HCX URL is found under the **Add-ons** blade and it is NOT the vCenter URL.  
+   
+    ![](Images/Mod2Task8Pic3.1.png)
 
 4. Accept certificate warning and Import. 
     
-     ![](Images/Mod2Task8Pic4.png)
+    ![](Images/Mod2Task8Pic4.png)
      
 5. Connection to the remote site will be established.     
 
-     ![](Images/Mod2Task8Pic5.png)
+    ![](Images/Mod2Task8Pic5.png)
    
