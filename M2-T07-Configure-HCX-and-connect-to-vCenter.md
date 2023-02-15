@@ -10,16 +10,15 @@ In this section, we will integrate and configure HCX Manager with the On-Premise
      - **Username**: `administrator@avs.lab`
      - **Password**: To be provided by your instructor 
 
-
     ![](./Images/Mod2Task7Pic1.png)
     
-2. In **Configure SSO/PSC**, provide the same **vCenter IP address**. Click **CONTINUE**.
+2. On **Configure SSO/PSC** blade, provide the same **vCenter IP address**. Click **CONTINUE**.
 
     ![](./Images/Mod2Task7Pic2.png)
     
 3. Verify that the information entered is correct and select **RESTART**.
 
-     > **Note**: The restart may take up to 10 minutes.    
+      > **Note**: The restart may take up to 10 minutes.    
 
     ![](./Images/Mod2Task7Pic3.png)
     
@@ -27,7 +26,7 @@ In this section, we will integrate and configure HCX Manager with the On-Premise
 
     ![](./Images/Mod2Task7Pic4.png)
      
-5. Next, click on **Configuration** to complete the HCX configuration. Select **HCX Role Mapping**and click **Edit**. 
+5. Next, click on **Configuration** to complete the HCX configuration. Select **HCX Role Mapping** and then, click **Edit**. 
 
      ![](./Images/Mod2Task7Pic5.png)
      
