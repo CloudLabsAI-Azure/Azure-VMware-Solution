@@ -43,10 +43,25 @@
 
     ![](/Images/avs-8.png)
 
-9. In **Routing and Remote Access** expand **VPN-01**, click on **Network Interfaces** and ensure **AzureS2S** that the *Status* is **Enabled** and the *Connection State* is in  **Connected**.
+9. In **Routing and Remote Access** expand **VPN-01**, click on **Network Interfaces** and ensure **AzureS2S** has the *Status* as **Enabled** and the *Connection State* is in **Connected**. Close the **Routing and Remote Access** window.
 
     ![](/Images/avs-9.png)
 
-    >**Important**: **DO NOT** make any changes in the **Routing and Remote Access** window as you will not be able to advance in the lab. 
+    >**Important**: **DO NOT** make any changes in the **Routing and Remote Access** window as you will not be able to advance further in the lab. 
 
+10. Back on the **vSphere Client** page, click on **Networks** tab and select **VM Network**.
 
+    ![](/Images/avs-10.png)
+
+11. In the **VM Network** page from the left menu under **DSwitch** observe the pre-created network switches and ensure the following are present:
+
+    - Management
+    - Uplink 
+    - vMotion
+    - Workload-Web
+
+    ![](/Images/avs-11.png)
+
+12. Next click on **OnPremDatacenter**, and go to **Datastores** notice **TrueNAS** this is a shared datastore resource between _TestVM1_ and _TestVM2_.
+
+    ![](/Images/avs-12.png)
