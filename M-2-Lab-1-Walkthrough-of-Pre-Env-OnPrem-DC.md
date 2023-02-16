@@ -13,11 +13,11 @@
 
 3. Select **Yes** to connect if prompted that the remote computer's identity cannot be verified.
 
-    ![](/Images/avs-3.png)
+      ![](/Images/avs-3.png)
 
 4. Open Edge browser on remote desktop and goto `192.168.0.60` webpage and click on **LAUNCH VSPHERE CLIENT (HTML5)**.
 
-![](/Images/avs-4.png)
+    ![](/Images/avs-4.png)
 
 5. On the *Vsphere client* click on **OnPremDatacenter** under **Summary** tab, observe the following resources and it's count.
 
@@ -27,7 +27,7 @@
     - Networks:	6
     - Datastores:	3
 
-  ![](/Images/avs-5.png)
+    ![](/Images/avs-5.png)
 
 6.    
 
