@@ -1,0 +1,1 @@
+# Lab 1: Walkthrough of Pre Env: OnPrem DC ready with a DRS Enabled Cluster with shared storage and vCenter and RRAS for VPN deployed. (License to be procured form VMware for these)
