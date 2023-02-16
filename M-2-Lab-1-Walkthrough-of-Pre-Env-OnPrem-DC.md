@@ -37,7 +37,7 @@
 
   ![](/Images/avs-7.png)
 
-> **Note**: The VM count might vary in your environment.
+>**Note**: The VM count might vary in your environment.
 
 8. To view the connection between the *Onprem on* to *Azure VPN*, click on start, search and select **Routing and Remote Access**.
 
@@ -47,6 +47,6 @@
 
   ![](/Images/avs-9.png)
 
-> **Important**: **DO NOT** make any changes in the **Routing and Remote Access** window as you will not be able to advance in the lab. 
+>**Important**: **DO NOT** make any changes in the **Routing and Remote Access** window as you will not be able to advance in the lab. 
 
 
