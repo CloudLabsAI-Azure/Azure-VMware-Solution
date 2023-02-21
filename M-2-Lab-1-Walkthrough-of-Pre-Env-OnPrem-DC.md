@@ -62,6 +62,6 @@
 
     ![](/Images/avs-11.png)
 
-12. Next click on **OnPremDatacenter** and go to **Datastores** notice **TrueNAS** datastore. This is a shared storage resource between _TestVM1_ and _TestVM2_.
+12. Next click on **OnPremDatacenter** and go to **Datastores** notice **TrueNAS** datastore. This is a common storage for all the VMs which is created and will get created.
 
     ![](/Images/avs-12.png)
