@@ -1,4 +1,4 @@
-# Lab 1: Walkthrough of Pre Env: OnPrem DC ready with a DRS Enabled Cluster with shared storage and vCenter and RRAS for VPN deployed. 
+# Walkthrough of Pre Configured Environment: OnPrem DC ready with a DRS Enabled Cluster with shared storage and vCenter and RRAS for VPN deployed. 
 
 1. On your **JumpVM** go to start, search and open **Remote Desktop Connection** and enter `103.227.96.82:4440` IP and click **Connect** to On-prem VM.
 
