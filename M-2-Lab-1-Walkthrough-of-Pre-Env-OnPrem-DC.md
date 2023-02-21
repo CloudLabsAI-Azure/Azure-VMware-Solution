@@ -1,6 +1,6 @@
 # Walkthrough of Pre Configured Environment: OnPrem DC ready with a DRS Enabled Cluster with shared storage and vCenter and RRAS for VPN deployed. 
 
-1. On your **JumpVM** go to start, search and open **Remote Desktop Connection** and enter `103.227.96.82:4440` IP and click **Connect** to On-prem VM.
+1. On your **JumpBox** go to start, search and open **Remote Desktop Connection** and enter `103.227.96.82:4440` IP and click **Connect** to On-prem vCenter VM.
 
    ![](/Images/avs-1.1.png)
 
@@ -19,7 +19,7 @@
 
     ![](/Images/avs-4.png)
 
-5. On the *Vsphere client*, click on **OnPremDatacenter** under **Summary** tab, observe the following resources.
+5. On the *vSphere client*, click on **OnPremDatacenter** under **Summary** tab, observe the following resources.
 
     - Hosts
     - Virtual Machines 
@@ -47,7 +47,7 @@
 
     ![](/Images/avs-9.png)
 
-    >**Important**: **DO NOT** make any changes in the **Routing and Remote Access** window as you will not be able to advance further in the lab. 
+    >**Important**: **DO NOT** make any changes in the **Routing and Remote Access** window as you will loose access to OnPrem environemnt and not be able to proceed further in the lab. 
 
 10. Back on the **vSphere Client** page, click on **Networks** tab and select **VM Network**.
 
@@ -62,6 +62,6 @@
 
     ![](/Images/avs-11.png)
 
-12. Next click on **OnPremDatacenter**, and go to **Datastores** notice **TrueNAS** datastore this is a shared storage resource between _TestVM1_ and _TestVM2_.
+12. Next click on **OnPremDatacenter** and go to **Datastores** notice **TrueNAS** datastore. This is a shared storage resource between _TestVM1_ and _TestVM2_.
 
     ![](/Images/avs-12.png)
