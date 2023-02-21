@@ -176,5 +176,9 @@ In this task you will be connecting to the VMs using **Putty (SSH Tool)**, which
        iptables -A OUTPUT -p icmp -j ACCEPT
        iptables -A INPUT -p icmp -j ACCEPT
     ```
-
+    
+#### Summary:
+In this task:
+   * Created a content library to import and store the OVF & OVA Templates.
+   * Finally you created the TestVMs using the OVF & OVA Templates and checked VM connection through Putty in your JumpBox.
 
