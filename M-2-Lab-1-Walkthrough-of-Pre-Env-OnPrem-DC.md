@@ -1,4 +1,4 @@
-# Walkthrough of Pre Configured Environment: OnPrem DC ready with a DRS Enabled Cluster with shared storage and vCenter and RRAS for VPN deployed
+# Module 2: Walkthrough of Pre-Configured OnPrem Environment
 
 1. On your **JumpBox** go to start, search and open **Remote Desktop Connection** and enter `xxx.xxx.xxx.xxx` IP and click **Connect** to On-prem vCenter VM.
 
