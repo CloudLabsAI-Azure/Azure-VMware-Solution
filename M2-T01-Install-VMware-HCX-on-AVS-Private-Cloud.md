@@ -23,6 +23,7 @@ In this module, we will go through the steps to Install HCX, configure and migra
  * JumpBox from AVS should be able to ping following ip addresses:
     - AVS vCenter: get from the Azure Portal
     - On-prem vCenter: 10.X.Y.2
+
 # Task 1: Install VMware HCX on AVS Private Cloud
 
 ## Exercise 1: Enable HCX on AVS Private Cloud
