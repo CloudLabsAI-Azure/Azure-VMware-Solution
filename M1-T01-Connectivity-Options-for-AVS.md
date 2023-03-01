@@ -117,7 +117,7 @@ In this section you will create a connection between an existing, non-AVS, Virtu
      * Peer circuit URI: paste the **ExpressRoute ID** value which you noted in previous steps.
     Now, click on the **OK** button to add the connection, and wait for few seconds to get the connection succeed.
     
-     ![Add Gateway Connection](Images/add-connection-gw.jpg)
+     ![Add Gateway Connection](Images/M1-T1-S5.png)
     
 6. Within few second you will find the connection is added and in succeeded state.
 
