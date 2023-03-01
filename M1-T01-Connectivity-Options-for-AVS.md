@@ -101,13 +101,13 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 
    ![Select JumpBox RG](Images/select-jumpbox-rg.jpg)
 
-3. From **JumpBox-RG** overview blade, click on **JumpBox-GW**.
+3. From **JumpBox-RG** overview blade, click on **AVS-GW**.
 
-   ![Select JumpBox gateway](Images/select-jumpbox-gw.jpg)
+   ![Select JumpBox gateway](Images/M1-T1-E2-O1.png)
 
-4. From the **JumpBox-GW** blade, click on on the **Connections** under **Settings** and then **+ Add** to add the gatway connection.
+4. From the **AVS-GW** blade, click on on the **Connections** under **Settings** and then **+ Add** to add the gatway connection.
     
-   ![Add gateway connection](Images/gw-connection-add.jpg)
+   ![Add gateway connection](Images/img.png)
    
 5. On **Add connection** blade, enter following details:
      * Name (1): `AVS-vNet`
@@ -121,7 +121,7 @@ In this section you will create a connection between an existing, non-AVS, Virtu
     
 6. Within few second you will find the connection is added and in succeeded state.
 
-    ![Gateway Connection Succeed](Images/connection-suceed.jpg)
+    ![Gateway Connection Succeed](Images/AVS-GW.png)
     
 ### Exercise 3: Confirm access from Jumpbox
 
