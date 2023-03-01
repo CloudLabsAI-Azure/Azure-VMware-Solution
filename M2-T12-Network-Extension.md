@@ -12,8 +12,6 @@ With VMware HCX Network Extension you can:
   - Extend VLAN-tagged networks from a VMware vSphere Distributed Switch.
   - Extend NSX segments.
 
-For more information please visit VMware’s documentation for [Extending Networks with VMware HCX](https://docs.vmware.com/en/VMware-HCX/4.3/hcx-user-guide/GUID-DD9C3316-D01C-4088-B3EA-84ADB9FED573.html).
-
 Once the Service Mesh appliances have been deployed, the next important step is to extend the on-premises network(s) to AVS, so that any migrated VM’s will be able to retain their existing IP address.
 
 # Exercise 1: Create a Network Extension
@@ -55,3 +53,10 @@ Once the Service Mesh appliances have been deployed, the next important step is 
 9. Select **VLAN** on the left menu, choose **None** for **VLAN type** and click **OK**.
 
     ![](Images/vlan_none.png)
+    
+    
+#### Summary:
+In this task, you created a network extention.
+
+#### References:
+[Extending Networks with VMware HCX](https://docs.vmware.com/en/VMware-HCX/4.3/hcx-user-guide/GUID-DD9C3316-D01C-4088-B3EA-84ADB9FED573.html).
