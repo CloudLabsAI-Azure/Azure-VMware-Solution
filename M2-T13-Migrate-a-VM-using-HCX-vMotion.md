@@ -69,3 +69,10 @@ Notice the name of the Network this VM is connected to **Workload-Web**.
 12. You have now successfully completed **Resverse Migration**.
 
     ![](Images/Mod2Task13Pic12.png)
+    
+#### Summary:
+In this task, you migrated the VM to AVS and performed Reverse Migration.
+
+#### References:
+[Migrating Virtual Machines with VMware HCX](https://docs.vmware.com/en/VMware-HCX/4.4/hcx-user-guide/GUID-D0CD0CC6-3802-42C9-9718-6DA5FEC246C6.html)
+
