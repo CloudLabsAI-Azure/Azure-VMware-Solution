@@ -30,3 +30,10 @@ In this task, we will be creating the Site Pairing to connect the On-Premises HC
 
     ![](Images/Mod2Task8Pic5.png)
    
+#### Summary:
+
+In this task, you created a site pairing from On-Premises HCX to AVS HCX .
+
+
+#### References:
+[Add a site pairing](https://learn.microsoft.com/en-us/azure/azure-vmware/configure-vmware-hcx) 
