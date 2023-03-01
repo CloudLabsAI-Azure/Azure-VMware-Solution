@@ -6,8 +6,6 @@ An HCX Service Mesh is the effective HCX services configuration for a source and
 
 Adding a Service Mesh initiates the deployment of HCX Interconnect virtual appliances on both sites. An interconnect Service Mesh is always created at the source site.
 
-More information can be found inf VMware’s Official Documentation, [Creating a Service Mesh](https://docs.vmware.com/en/VMware-HCX/4.3/hcx-user-guide/GUID-46AED982-8ED2-4CB1-807E-FEFD18FAC0DD.html).
-
 # Exercise 1: Create HCX Service Mesh
 
   > **Important Note**: Make sure port UDP 4500 is open between your On-Premises VMware HCX Connector ‘uplink’ network profile addresses and the Azure VMware Solution HCX Cloud ‘uplink’ network profile addresses.
@@ -53,3 +51,10 @@ More information can be found inf VMware’s Official Documentation, [Creating a
      ![](Images/Mod2Task11Pic10.png)
 
 11. You’re ready to migrate and protect on-premises VMs to Azure VMware Solution using VMware HCX. Azure VMware Solution supports workload migrations (with or without a network extension). So you can still migrate workloads in your vSphere environment, along with On-Premises creation of networks and deployment of VMs onto those networks. For more information, see the [VMware HCX Documentation](https://docs.vmware.com/en/VMware-HCX/index.html).
+
+#### Summary:
+In this task, you created service mesh which initiates the deployment of HCX Interconnect virtual appliances.
+
+#### References:
+- [Creating a Service Mesh](https://docs.vmware.com/en/VMware-HCX/4.3/hcx-user-guide/GUID-46AED982-8ED2-4CB1-807E-FEFD18FAC0DD.html).
+- [VMware HCX Documentation](https://docs.vmware.com/en/VMware-HCX/index.html).
