@@ -119,6 +119,8 @@ Now that we have our networks created, we can deploy virtual machines and ensure
 
 In this task you will be connecting to the VMs using **Putty (SSH Tool)**, which is already installed in the **JumpBox** which is already connected with lab environment.
 
+   > **Important:** Ensure both the test VMs are turned on before performing this task.
+
 1. From the **JumpBox**, from start menu search `Putty` **(1)** and then click on **Putty (2)**
 
    ![](Images/search-putty-startmenu.jpg)
