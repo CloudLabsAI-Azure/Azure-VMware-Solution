@@ -12,8 +12,12 @@
 
 4. Click on **AVS-RG** to view the resources present in it, you should see a resource of the **AVS Private Cloud** type named **AVS-DC**.
 
-   ![Launch AVS-DC](Images/launch-avs-dc1.jpg)
+    ![Launch AVS-DC](Images/launch-avs-dc1.jpg)
 
 5. Navigate back to the resource group page and click on **JumpBox-RG**. 
 
     ![Launch AVS-DC](Images/jumbox-rg.jpg)
+
+6. In the **JumpBox-RG**, observe the following resources, here the **AVS-GW** is the **Virtual Network Gateway** that is connected to your JumpBox **Virtual Machine**.
+   
+    ![Launch AVS-DC](Images/jumpbox-resources.jpg)
