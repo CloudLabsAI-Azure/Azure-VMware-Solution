@@ -62,3 +62,12 @@ In a real customer environment, these will have been planned and identified prev
      |Secondary DNS | ‬1.1.1.1| 
  
      ![](Images/Mod2Task9Pic5.png)
+     
+#### Summary:
+In this task, you created the following network profiles:
+- Uplink
+- Management
+- vMotion
+
+#### References:
+[Create network profiles](https://learn.microsoft.com/en-us/azure/azure-vmware/configure-vmware-hcx)
