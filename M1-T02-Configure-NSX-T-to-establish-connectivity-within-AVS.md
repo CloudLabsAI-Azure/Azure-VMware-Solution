@@ -72,10 +72,12 @@ NSX-T has the concept of Logical Routers (LR). These Logical Routers can perform
    
 2. Enter the following detail on the create the Tier-1 Gateway
  
-    - **Tier-1 Gateway a Name**:  `  `.
+    - **Tier-1 Gateway Name**:  `TNTxx-T1 `.
     - **Linked Tier-0 Gateway**: Select the default T0 Gateway.   
     - **Edge Cluster**: Select the available cluster from the drop down.
     
+    > **Note:** Replace the _xx_ in the **Tier-1 Gateway** name with the numbers present in your **Linked Tier-0 Gateway** name. Similar to the image shown below
+   
    ![NSX-T Console](Images/tier_gateway.1.png)
 
 3. Next under **Route Advertisement** enable the following and click in **Save**.
