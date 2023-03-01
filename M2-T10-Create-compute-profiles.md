@@ -2,13 +2,12 @@
 
 ## HCX Compute Profile
 
-A compute profile contains the compute, storage, and network settings that HCX uses on this site to deploy the interconnected dedicated virtual appliances when service mesh is added. For more information on compute profile and its creation please refer to [VMware documentation](https://docs.vmware.com/en/VMware-HCX/4.2/hcx-user-guide/GUID-BBAC979E-8899-45AD-9E01-98A132CE146E.html#:~:text=A%20Compute%20Profile%20contains%20the%20compute%2C%20storage%2C%20and,virtual%20appliances%20when%20a%20Service%20Mesh%20is%20added.).
-
+A compute profile contains the compute, storage, and network settings that HCX uses on this site to deploy the interconnected dedicated virtual appliances when service mesh is added.
 # Exercise 1: Create Compute Profile 
 
 1. In your on-premises HCX installation, click **Interconnect**. Select **Compute Profiles** and click on **CREATE COMPUTE PROFILE**.
 
-   ![](Images/Mod2Task10Pic1.png)
+      ![](Images/Mod2Task10Pic1.png)
    
 2. On **Create Compute Profile** pane, enter `OnPremCompute` for **Name your Compute Profile** and click on **CONTINUE**.  
 
@@ -57,3 +56,10 @@ A compute profile contains the compute, storage, and network settings that HCX u
 13. Your **Compute Profile** is created successfully.
 
       ![](Images/Mod2Task10Pic13.png) 
+      
+ #### Summary:
+In this task, you created compute profile.
+
+#### References:  
+- [VMware documentation](https://docs.vmware.com/en/VMware-HCX/4.2/hcx-user-guide/GUID-BBAC979E-8899-45AD-9E01-98A132CE146E.html#:~:text=A%20Compute%20Profile%20contains%20the%20compute%2C%20storage%2C%20and,virtual%20appliances%20when%20a%20Service%20Mesh%20is%20added.).
+- [Create a compute profile](https://learn.microsoft.com/en-us/azure/azure-vmware/configure-vmware-hcx)
