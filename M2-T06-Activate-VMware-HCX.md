@@ -31,3 +31,11 @@ In this task, we will activate the On-Premises HCX appliance that we just deploy
 6. Click **YES, CONTINUE** to complete activating your HCX. After a few minutes HCX should be successfully activated.    
 
      ![](./Images/Mod2Task6Pic5.png)  
+
+
+#### Summary:
+
+In this task, you activated the On-Premises HCX appliance.
+
+#### References:
+[Activating and Configuring HCX](https://docs.vmware.com/en/VMware-HCX/4.4/hcx-user-guide/GUID-CB8D13A2-D3E2-4B1E-A46A-0B662FEF4541.html)

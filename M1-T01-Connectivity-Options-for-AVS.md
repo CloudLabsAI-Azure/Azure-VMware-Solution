@@ -26,49 +26,32 @@ After this lab is complete, you will have built out this scenario below:
   3. Creation of Test VMs to attach to your NSX-T Network Segments.
   4. Explore some advanced NSX-T features like tagging, creation of groups, Distributed Firewall Features.
 
-### Exercise 1: Deploy Azure VMware Solution (AVS)
-In this section you will deploy the Azure VMware Solution rom Azure portal, AVS deployment will take 4-5 hours.
+### Exercise 1: Review the exisitng resources on the Azure portal
 
-1. On Azure portal, click on **Show portal menu** button from upper left corner.
+In this task you will review the Pre-created resources on your Azure Portal.
 
-   ![Show portal menu](Images/show-portal-menu.jpg)
-   
-2. Click on **+ Create a resource**.
+1. Navigate to the **Azure portal** on your **JumpBoxVM** and sign in with your user credentials if you are not already signed in. 
 
-   ![Create a resource](Images/create-a-resource.jpg)
-   
-3. In search box enter **Azure VMware Solution** and then select **Azure VMware Solutions**.
+2. On Azure portal, click on the **Resource groups** from the **Navigate** section.
 
-   ![create-a-resource-avs](Images/create-a-resource-avs.jpg)
-   
-4. Click on **Create**.
-
-   ![click-create](Images/click-create-1.jpg)
-   
-5. Click on **Create** button again.
-
-   ![click-create](Images/click-create-2.jpg)
-   
-6. On the **Prerequisites** blade, click on **Next : Basics >**
-
-   ![click-create](Images/click-next-basics.jpg)
-   
-7. On **Basics** tab, enter/select following values:
-    * Resource Group: `AVS-RG`
-    * Resource Name: `AVS-DC`
-    * Location: `Same as Resource Group location`
-    * Size of Host: `AV36P Node`
-    * Number of hosts: `default/3`
-    * Address block for private cloud: `10.10.0.0/16`
-   Now, click on **Review and Create**
+    ![Navigate Resource Group](Images/goto-rg.jpg)
     
-   ![review and create](Images/avs-review-and-create.jpg)
-   
-8. Validate all the values which you have provided in previous step and click on **Create** to start the Azure VMware Solution deployment. Please note it will take upto 4-5 hours to get the deployment succeed.
+3. From the **Resource group** page, notice the resource groups **AVS-RG** and **JumpBox-RG**.
 
-   ![create](Images/avs-create.jpg)
+    ![Launch AVS-DC](Images/reviewrg.jpg)
+
+4. Click on **AVS-RG** to view the resources present in it, you should see a resource of the **AVS Private Cloud** type named **AVS-DC**.
+
+    ![Launch AVS-DC](Images/launch-avs-dc1.jpg)
+
+5. Navigate back to the resource group page and click on **JumpBox-RG**. 
+
+    ![Launch AVS-DC](Images/jumbox-rg.jpg)
+
+6. In the **JumpBox-RG**, observe the following resources, here the **AVS-GW** is the **Virtual Network Gateway** that is connected to your JumpBox **Virtual Machine**.
    
-9. Once the deployment is succeeded you can verify it from the notification icon of Azure portal from the top right corner near settings gear icon.
+    ![Launch AVS-DC](Images/jumpbox-resources.jpg)
+
 
 ### Exercise 2: AVS Connectivity Options
 In this section you will create a connection between an existing, non-AVS, Virtual Network in Azure and the Azure VMware Solution environment. This allows the jumpbox virtual machine you created to manage key components in the VMware management plane such as vCenter, HCX, and NSX-T. You will also be able to access Virtual Machines deployed in AVS and allow those VMs to access resources deployed in the Hub or Spoke VNet’s, such as Private Endpoints and other Azure VMs or Services.
@@ -118,13 +101,13 @@ In this section you will create a connection between an existing, non-AVS, Virtu
 
    ![Select JumpBox RG](Images/select-jumpbox-rg.jpg)
 
-3. From **JumpBox-RG** overview blade, click on **JumpBox-GW**.
+3. From **JumpBox-RG** overview blade, click on **AVS-GW**.
 
-   ![Select JumpBox gateway](Images/select-jumpbox-gw.jpg)
+   ![Select JumpBox gateway](Images/M1-T1-E2-O1.png)
 
-4. From the **JumpBox-GW** blade, click on on the **Connections** under **Settings** and then **+ Add** to add the gatway connection.
+4. From the **AVS-GW** blade, click on on the **Connections** under **Settings** and then **+ Add** to add the gatway connection.
     
-   ![Add gateway connection](Images/gw-connection-add.jpg)
+   ![Add gateway connection](Images/img.png)
    
 5. On **Add connection** blade, enter following details:
      * Name (1): `AVS-vNet`
@@ -134,11 +117,11 @@ In this section you will create a connection between an existing, non-AVS, Virtu
      * Peer circuit URI: paste the **ExpressRoute ID** value which you noted in previous steps.
     Now, click on the **OK** button to add the connection, and wait for few seconds to get the connection succeed.
     
-     ![Add Gateway Connection](Images/add-connection-gw.jpg)
+     ![Add Gateway Connection](Images/M1-T1-S5.png)
     
 6. Within few second you will find the connection is added and in succeeded state.
 
-    ![Gateway Connection Succeed](Images/connection-suceed.jpg)
+    ![Gateway Connection Succeed](Images/AVS-GW.png)
     
 ### Exercise 3: Confirm access from Jumpbox
 

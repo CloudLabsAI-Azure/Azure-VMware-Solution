@@ -12,7 +12,6 @@ VMware HCX™ is an application mobility platform designed for simplifying appli
 
 In this module, we will go through the steps to Install HCX, configure and migrate a test VM to Azure VMware Solution (AVS).
 
-> **Info:** For more information on HCX, please visit [VMware’s HCX Documentation](https://www.vmware.com/products/hcx.html).
 
 ## HCX Setup for Azure VMware Solution (AVS) 
 
@@ -48,3 +47,9 @@ In the following task, we will be installing HCX on your AVS Private Cloud. This
 
    ![](Images/Mod2Task1Pic4.png)
 
+#### Summary:
+In this task, you have installed VMware HCX by enabling HCX on AVS Private Cloud.
+
+#### References:
+- [VMware’s HCX Documentation](https://www.vmware.com/products/hcx.html).
+- [Install and activate VMware HCX in Azure VMware Solution](https://learn.microsoft.com/en-us/azure/azure-vmware/install-vmware-hcx)

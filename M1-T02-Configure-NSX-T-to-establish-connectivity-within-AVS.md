@@ -72,10 +72,12 @@ NSX-T has the concept of Logical Routers (LR). These Logical Routers can perform
    
 2. Enter the following detail on the create the Tier-1 Gateway
  
-    - **Tier-1 Gateway a Name**:  `  `.
+    - **Tier-1 Gateway Name**:  `TNTxx-T1 `.
     - **Linked Tier-0 Gateway**: Select the default T0 Gateway.   
     - **Edge Cluster**: Select the available cluster from the drop down.
     
+    > **Note:** Replace the _xx_ in the **Tier-1 Gateway** name with the numbers present in your **Linked Tier-0 Gateway** name. Similar to the image shown below
+   
    ![NSX-T Console](Images/tier_gateway.1.png)
 
 3. Next under **Route Advertisement** enable the following and click in **Save**.
@@ -96,19 +98,15 @@ NSX-T has the concept of Logical Routers (LR). These Logical Routers can perform
 
 NSX-T has the concept of Logical Routers (LR). These Logical Routers can perform both distributed or centralized functions. In AVS, NSX-T is deployed and configured with a default T0 Logical Router and a default T1 Logical Router. The T0 LR in AVS cannot be manipulated by AVS customers, however the T1 LR can be configured however an AVS customer chooses. AVS customers also have the option to add additional T1 LRs as they see fit.
 
-1. In the **NSX-T Console**, click **Networking (1)**. Select **Segments** under connectivity ad click on **ADD SEGMENT**.
-
-   ![Segments](Images/task2.12.jpg) 
-
-2. On **Tier-1 Gateways** page, click on **Set DHCP Configuration**. 
+1. On **Tier-1 Gateways** page, click on **Set DHCP Configuration**. 
 
    ![Tier-1 Gateways](Images/task2.9.jpg)
 
-3. In **Set DHCP Configuration** pane select **Type** as **DHCP Server (1)** and **DHCP Server Profile** as **Web-DHCP (2)** then click **Save (3)**.
+2. In **Set DHCP Configuration** pane select **Type** as **DHCP Server (1)** and **DHCP Server Profile** as **Web-DHCP (2)** then click **Save (3)**.
 
    ![Set DHCP Configuration](Images/task2.10.jpg) 
 
-4. On the  **Tier-1 Gateways** page select **Save (1)** and **CLOSE EDITING (2)**.
+3. On the  **Tier-1 Gateways** page select **Save (1)** and **CLOSE EDITING (2)**.
 
    ![Tier-1 Gateways](Images/task2.11.jpg)
 

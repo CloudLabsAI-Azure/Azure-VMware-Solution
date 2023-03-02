@@ -140,3 +140,13 @@ In this step, we will deploy the HCX VM with the configuration from the On-Premi
 12. Once done, navigate to newly created **HCX-Connector VM** and **Power on**. The boot process may take 10-15 minutes to complete.   
 
      ![](Images/Mod2Task4Pic12.png)
+     
+     
+#### Summary:
+In this task,
+- Deployed OVA from downloads, configured and deployed **VMware-HCX-Connector** VM. 
+- Deployed HCX from Content Library, configured and deployed **HCX-Connector VM** VM. 
+
+#### References:
+
+[Configure on-premises VMware HCX Connector](https://learn.microsoft.com/en-us/azure/azure-vmware/configure-vmware-hcx)

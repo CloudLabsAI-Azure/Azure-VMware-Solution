@@ -16,3 +16,12 @@ While the HCX installation runs, we will need to obtain a license key to activat
 4. Now, click on **Status (1)** and copy the **Activation Key (2**) and save it in notepad for later use.
 
      ![](./Images/Mod2Task5Pic3.1.png)
+
+
+#### Summary:
+
+In this task, you obtained the **HCX Activation license key** from the Azure portal.
+
+#### References:
+
+[Activating and Configuring HCX](https://docs.vmware.com/en/VMware-HCX/4.4/hcx-user-guide/GUID-CB8D13A2-D3E2-4B1E-A46A-0B662FEF4541.html)

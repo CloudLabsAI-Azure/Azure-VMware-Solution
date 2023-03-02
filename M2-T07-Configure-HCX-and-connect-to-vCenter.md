@@ -35,4 +35,8 @@ In this section, we will integrate and configure HCX Manager with the On-Premise
 > **Note**: It may take an additional 5-10 minutes for the HCX plugins to be installed in vCenter, log back out and log back in if it does not show up automatically.
     
 
+#### Summary:
+In this task, you completed the configuration of On-Premises HCX.
 
+#### References:
+ [Configure HCX and connect to vCenter](https://docs.oracle.com/en/learn/oci-ocvs-hcx/index.html#task-2-request-download-link-for-the-vmware-hcx-connector-bundle)

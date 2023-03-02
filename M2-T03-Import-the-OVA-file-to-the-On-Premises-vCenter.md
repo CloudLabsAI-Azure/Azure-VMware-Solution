@@ -42,6 +42,10 @@ In this step we will import the HCX appliance into the on premises vCenter. We c
 7. In the **Content Libraries**, select **Local-Lib**.   
 
    ![](./Images/Mod2Task3Pic2.png)
+
+8. Click on **Actions** and select **Import item**.
+
+   ![](./Images/Import.png)   
    
 8. Enter the URL you copied earlier for **Source file (1)**, and click on **IMPORT**.
     
@@ -54,3 +58,10 @@ In this step we will import the HCX appliance into the on premises vCenter. We c
 10. The **HCX OVA** will download to the library in the background.
 
     ![](./Images/Mod2Task3Pic5.png)
+ 
+ 
+ #### Summary:
+ In this task, you downloaded and deployed HCX from a vCenter Content Library.
+ 
+ #### References:
+ [Downloading the HCX OVAs](https://docs.vmware.com/en/VMware-HCX/4.6/hcx-user-guide/GUID-2698A63D-178B-4252-AFBC-652CBF98F104.html#:~:text=The%20installer%20OVA%20provides%20the%20image%20necessary%20to,have%20fully%20deployed%20and%20activated%20HCX%20Cloud%20Manager.)

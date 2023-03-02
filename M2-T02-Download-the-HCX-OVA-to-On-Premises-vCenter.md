@@ -22,3 +22,8 @@ The next step after installing HCX on your AVS Private Cloud, is to download HCX
     ![](./Images/Mod2Task2Pic4.png)
 
 
+#### Summary:
+In this task, you have logged into Vmware HCX, where you will be requesting for HCX OVA Download Link.
+
+#### References:
+[Deploy VMware HCX Connector in your on-premises](https://blogs.oracle.com/cloud-infrastructure/post/deploy-vmware-hcx-connector-in-your-on-premises-vmware-environment-and-establish-a-site-pairing-with-oracle-cloud-vmware-solution)

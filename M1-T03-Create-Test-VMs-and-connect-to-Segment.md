@@ -119,6 +119,8 @@ Now that we have our networks created, we can deploy virtual machines and ensure
 
 In this task you will be connecting to the VMs using **Putty (SSH Tool)**, which is already installed in the **JumpBox** which is already connected with lab environment.
 
+   > **Important:** Ensure both the test VMs are turned on before performing this task.
+
 1. From the **JumpBox**, from start menu search `Putty` **(1)** and then click on **Putty (2)**
 
    ![](Images/search-putty-startmenu.jpg)
@@ -181,4 +183,8 @@ In this task you will be connecting to the VMs using **Putty (SSH Tool)**, which
 In this task:
    * Created a content library to import and store the OVF & OVA Templates.
    * Finally you created the TestVMs using the OVF & OVA Templates and checked VM connection through Putty in your JumpBox.
+
+#### References:
+- [Deploying OVF and OVA Templates](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.vm_admin.doc/GUID-AFEDC48B-C96F-4088-9C1F-4F0A30E965DE.html)
+- [Templates in Content Libraries](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.vm_admin.doc/GUID-F7BF0E6B-7C4F-4E46-8BBF-76229AEA7220.html)
 
