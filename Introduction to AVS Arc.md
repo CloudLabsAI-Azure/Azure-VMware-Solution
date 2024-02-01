@@ -2,7 +2,7 @@
 
 ## Architecture diagram:
 
-   ![](../Images/diagram-avs1.png)
+   ![](./Instructor-guide/Images/diagram-avs1.png)
 
 ## Initial Connection and Management:
 
