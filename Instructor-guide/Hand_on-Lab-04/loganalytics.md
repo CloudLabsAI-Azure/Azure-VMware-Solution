@@ -24,6 +24,10 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 
    ![](../media/image11.png)
 
+### Task 2: Configure Log Analytics Agent for Azure Arc-enabled Server
+
+In this task, you will configure the Log Analytics agent for an Azure Arc-enabled server (WinDev2401Eval) to connect it to a Log Analytics workspace. This allows you to monitor and collect telemetry data from the server using Azure Monitor.
+
 1. Once the deployment got succeeded, Click on **Go to resource** and click on **Agents** under Settings section.
 
    ![](../media/image11.png)
@@ -57,9 +61,15 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 1. Once the deployment get succeeded, navigate to the Log Analytics workspce which was created earlier and select **Logs** from the left pane and close the query window pop-up and enter the below query and click on **Run** to verify the log analytics connectivity with the machine.
 
 ```
- Heartbeat
+  Heartbeat
   | where OSType =="Windows"
-  | distinct computer
+  | distinct Computer
 ```
 1. In the **Results** window, the **WinDev2401Eval** entry is listed, indicating the machine is connected to Log Analytics workspace.
+
+
+
+  
+
+   
 
