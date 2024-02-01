@@ -4,9 +4,7 @@ Welcome to your Azure Vmware Solution workshop! We've prepared a seamless enviro
 
 ### **Let's Get Started with the Azure Portal**
  
-1. On your virtual machine, click on the Azure Portal icon, as shown below:
- 
-    ![Launch Azure Portal](../Images/gG.png)
+1. In your prsonal desktop open microsoft egde and nevigate to the `https://portal.azure.com/`.
  
 2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
  
