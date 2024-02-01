@@ -1,6 +1,6 @@
 # **Getting Started with the Lab Environment**
  
-Welcome to your Azure Vmware Solution workshop! We've prepared a seamless environment for you to explore and learn about Deploy VMware VMs in AVS, Enabling Managed SNAT for Azure VMware Solution workloads and Configuring a DNS forwarder in the Azure portal. Let's begin by making the most of this experience.
+Welcome to your Azure VMware Solution workshop! We've prepared a seamless environment for you to explore and learn about deploying VMware VMs in AVS, Enabling Managed SNAT for Azure VMware Solution workloads, and Configuring a DNS forwarder in the Azure portal. Let's begin by making the most of this experience.
 
 ### **Let's Get Started with the Azure Portal**
  
