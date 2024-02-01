@@ -15,7 +15,7 @@ You connect to the jumpbox VM remotely using SSH or RDP through the internet and
 
 ## External Connectivity :
 
-* While not explicitly shown, the diagram allows for an **ExpressRoute** connection. This dedicated private link between your on-premises network and Azure offers increased security, low latency, and high bandwidth compared to the public internet.
+* While not explicitly shown, the architecture allows for an **ExpressRoute** connection. This dedicated private link between your on-premises network and Azure offers increased security, low latency, and high bandwidth compared to the public internet.
 
 ## Core AVS Infrastructure:
 
@@ -23,11 +23,11 @@ You connect to the jumpbox VM remotely using SSH or RDP through the internet and
 
 ## Advanced Networking and Security:
 
-* While not directly visible, the diagram can incorporate **NSX-T**. This service provides advanced networking and security features like firewalls, microsegmentation, and load balancing within the AVS private cloud.
+* This architecture incorporate **NSX-T**. This service provides advanced networking and security features like firewalls, microsegmentation, and load balancing within the AVS private cloud.
 
 ## Network Segmentation and Workloads:
 
-* The diagram depicts two **Tier-1 Gateways** connecting different **Workload Segments**. These segments logically isolate distinct workloads (e.g., development, test, production) for enhanced security, management, and resource allocation.
+* This architecture illustrates two **Tier-1 Gateways** connecting various **Workload Segments**. These segments strategically isolate different workloads, such as development, test, and production, ensuring improved security, management, and resource allocation.
 
 ## Virtual Machines and Management:
 
