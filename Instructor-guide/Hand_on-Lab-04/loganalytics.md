@@ -34,4 +34,23 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 
 1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Azure Arc**, and then select **Azure Arc** under services.
 
+   ![](../media/image11.png)
+
+1. Select **Machines** under **Infrastructure** section from the left pane, and select **WinDev2401Eval** machine from the list.
+ 
+   ![](../media/image11.png)
+
+1. On **WinDev2401Eval** machine page, select **Extensions** under settings.
+
+   ![](../media/image11.png)
+
+1. On **Install extension** page, search and select **Log Analytics Agent - Azure Arc (on a deprecation path)** and click on **Next**
+
+   ![](../media/image11.png)
+
+1. On **Configure Log Analytics Agent - Azure Arc (on a deprecation path) extension** page, enter the Workspace ID and Primary key copied for the workspace id and workspace key respectively and click on **Review + create**
+
+   ![](../media/image11.png)
+
+1. Click on **Create**. Wait for the deployment to get succeeded.
 
