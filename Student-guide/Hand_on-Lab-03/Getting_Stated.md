@@ -1,6 +1,6 @@
 # **Getting Started with the Lab Environment**
  
-Welcome to your Azure Vmware Solution workshop! We've prepared a seamless environment for you to explore and learn about deploying HCX for VM Migration, downloading the HCX OVA to JumpBox-VM vCenter, Importing the OVA file to the JumpBox-VM vCenter, Setting up HCX on AVS, Obtaining HCX License Key, Activate VMware HCX and Configuring HCX and connect to vCenter. Let's begin by making the most of this experience.
+Welcome to your Azure VMware Solution workshop! We've prepared a seamless environment for you to explore and learn about deploying HCX for VM Migration, downloading the HCX OVA to JumpBox-VM vCenter, Importing the OVA file to the JumpBox-VM vCenter, Setting up HCX on AVS, Obtaining HCX License Key, Activate VMware HCX and Configuring HCX and connect to vCenter. Let's begin by making the most of this experience.
 
 ### **Let's Get Started with the Azure Portal**
  

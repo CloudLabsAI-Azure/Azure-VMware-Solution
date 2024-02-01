@@ -1,10 +1,10 @@
 # **Getting Started with the Lab Environment**
 
-Welcome to your Azure Vmware Solution workshop! We've prepared a seamless environment for you to explore and learn about Azure VMware Solution, You will understand the AVS deployment architecture , Connect Azure VNET to AVS using Express Route Connectivity and Configure DHCP for Azure VMware Solution. Let's begin by making the most of this experience.
+Welcome to your Azure VMware Solution workshop! We've prepared a seamless environment for you to explore and learn about Azure VMware Solution, You will understand the AVS deployment architecture, Connect Azure VNET to AVS using Express Route Connectivity, and Configure DHCP for Azure VMware Solution. Let's begin by making the most of this experience.
 
 ### **Let's Get Started with the Azure Portal**
  
-1. In your prsonal desktop open microsoft egde and nevigate to the `https://portal.azure.com/`.
+1. On your desktop open Microsoft Edge and navigate to the `https://portal.azure.com/`.
  
 2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
  
