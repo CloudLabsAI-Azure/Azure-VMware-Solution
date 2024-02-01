@@ -1,6 +1,6 @@
-## Excercise - 3 : Configure Azure Monitor Insights for Azure Arc-enabled Server
+## Excercise 3 : Configure Azure Monitor Insights for Azure Arc-enabled Server
 
-### Task -1: Enable Monitoring Insights for Azure Arc server
+### Task 1: Enable Monitoring Insights for Azure Arc server
 
 In this task, you will learn how to configure Azure Monitor insights for Azure Arc-enabled servers. You will enable monitoring and performance insights for a specific machine, allowing you to visualize key metrics such as CPU utilization and available memory. This lab will provide you with hands-on experience in configuring monitoring settings and utilizing Azure Monitor to gain insights into the performance of Azure Arc-enabled servers.
 
