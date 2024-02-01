@@ -27,7 +27,7 @@ You connect to the jumpbox VM remotely using SSH or RDP through the internet and
 
 ## Network Segmentation and Workloads
 
-* This architecture illustrates two **Tier-1 Gateways** connecting various **Workload Segments**. These segments strategically isolate different workloads, such as development, test, and production, ensuring improved security, management, and resource allocation.
+* This architecture illustrates two **Tier-1 Gateways** connecting various **Workload Segments**. These segments strategically isolate different workloads, such as development, testing, and production, ensuring improved security, management, and resource allocation.
 
 ## Virtual Machines and Management
 
