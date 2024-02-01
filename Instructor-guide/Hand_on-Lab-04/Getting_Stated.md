@@ -1,6 +1,6 @@
 # **Getting Started with the Lab Environment**
  
-Welcome to your Azure Vmware Solution workshop! We've prepared a seamless environment for you to explore and learn about Monitoring AVS VMs with Azure Monitoring. Let's begin by making the most of this experience.
+Welcome to your Azure VMware Solution workshop! We've prepared a seamless environment for you to explore and learn about Monitoring AVS VMs with Azure Monitoring. Let's begin by making the most of this experience.
 
 ### **Let's Get Started with the Azure Portal**
  
