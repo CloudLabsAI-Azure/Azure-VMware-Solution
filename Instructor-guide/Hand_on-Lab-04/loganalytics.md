@@ -54,3 +54,12 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 
 1. Click on **Create**. Wait for the deployment to get succeeded.
 
+1. Once the deployment get succeeded, navigate to the Log Analytics workspce which was created earlier and select **Logs** from the left pane and close the query window pop-up and enter the below query and click on **Run** to verify the log analytics connectivity with the machine.
+
+```
+ Heartbeat
+  | where OSType =="Windows"
+  | distinct computer
+```
+1. In the **Results** window, the **WinDev2401Eval** entry is listed, indicating the machine is connected to Log Analytics workspace.
+
