@@ -1,25 +1,24 @@
 [
-    {
-      "Name": "Azure VMware Solution",
-      "Language": "English",
-      "Files": [
-        {
-          "RawFilePath":  "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M1-T01-Connectivity-Options-for-AVS.md",
-          "Order": 1
-        },
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M1-T02-Configure-NSX-T-to-establish-connectivity-within-AVS.md",
-          "Order": 2
-        },
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M1-T03-Create-Test-VMs-and-connect-to-Segment.md",
-          "Order": 3
-        },
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M1-T04-Advanced-NSX-T-Features-within-AVS.md",
+  {
+    "Name": "Azure VMware Solution",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath":  "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-02/Getting_Stated.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-02/Ex_04.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-02/Ex_05.md",
+        "Order": 3
+      },
+      {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-02/Ex_06.md",
           "Order": 4
-        }
-      ]
-    }
-  ]
-  
+      }
+    ]
+  }
+]

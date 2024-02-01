@@ -1,25 +1,40 @@
 [
-    {
-      "Name": "Azure VMware Solution",
-      "Language": "English",
-      "Files": [
-        {
-          "RawFilePath":  "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M1-T01-Connectivity-Options-for-AVS.md",
-          "Order": 1
-        },
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M1-T02-Configure-NSX-T-to-establish-connectivity-within-AVS.md",
-          "Order": 2
-        },
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M1-T03-Create-Test-VMs-and-connect-to-Segment.md",
+  {
+    "Name": "Azure VMware Solution",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath":  "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Student-guide/Hand_on-Lab-03/Getting_Stated.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Student-guide/Hand_on-Lab-03/Ex_07.md",
+        "Order": 2
+      },
+      {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Student-guide/Hand_on-Lab-03/Ex_08.md",
           "Order": 3
-        },
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/main/M1-T04-Advanced-NSX-T-Features-within-AVS.md",
-          "Order": 4
-        }
-      ]
-    }
-  ]
-  
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Student-guide/Hand_on-Lab-03/Ex_09.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Student-guide/Hand_on-Lab-03/Ex_10.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Student-guide/Hand_on-Lab-03/Ex_11.md",
+        "Order": 6
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Student-guide/Hand_on-Lab-03/Ex_12.md",
+        "Order": 7
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Student-guide/Hand_on-Lab-03/Ex_13.md",
+      "Order": 8
+   }
+    ]
+  }
+]
