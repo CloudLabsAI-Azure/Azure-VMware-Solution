@@ -1,3 +1,5 @@
+## Excercise 2: Configuring Log Analytics Workspace and Agent for Azure Arc-enabled Server
+
 ### Task 1: Create a Log Analytics Workspace
 
 In this task, you will create a Log Analytics workspace for to store the log information and analysing the machines onboarded through Azure Arc.
