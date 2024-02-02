@@ -6,11 +6,15 @@ In this task, you will learn how to configure Azure Monitor insights for Azure A
 
 1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Azure Arc**, and then select **Azure Arc** under services.
 
-   ![](../media/image11.png)
+   ![](../Images/loganalytics-6.png)
 
 1. Select **Machines** under **Infrastructure** section from the left pane, and select **WinDev2401Eval** machine from the list.
 
+   ![](../Images/monitoring-1.png)
+
 1. Select **Insights** under **Monitoring** section and click on **Enable** to configure the Insights from the Machine.
+
+   ![](../Images/monitoring-2.png)
 
 1. On the **Monitoring Configuration** page, add the below settings and click on **Configure**.
 
@@ -19,6 +23,12 @@ In this task, you will learn how to configure Azure Monitor insights for Azure A
       | Subscription | **Choose the default subscription** |
       | Data collection rule | **Choose the log analytics workspace which was created earlier**|
 
+   ![](../Images/monitoring-3.png)
+
 1. Wait for the deployment to complete and select the **Azure Monitor** on the **Insights** page.
 
+   ![](../Images/monitoring-4.png)
+
 1. Select the **Performance** to view the different charts related to **CPU Utilization** and **Available memory**
+
+   ![](../Images/monitoring-5.png)
