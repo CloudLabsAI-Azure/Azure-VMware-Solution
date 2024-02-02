@@ -12,13 +12,9 @@ Welcome to your Azure VMware Solution workshop! We've prepared a seamless enviro
  
 3. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
  
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
- 
     ![Enter Your Username](../Images/gH.png)
  
 4. Next, provide your password:
- 
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
  
    ![Enter Your Password](../Images/gI.png)
  
