@@ -22,7 +22,52 @@
         {
             "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-01/Ex_03.md",
             "Order": 5
-        }
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-02/Ex_04.md",
+          "Order": 6
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-02/Ex_05.md",
+          "Order": 7
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-02/Ex_06.md",
+            "Order": 8
+        },
+        {
+          "RawFilePath":  "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-03/Getting_Stated.md",
+          "Order": 9
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-03/Ex_07.md",
+          "Order": 10
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-03/Ex_08.md",
+            "Order": 11
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-03/Ex_09.md",
+          "Order": 12
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-03/Ex_10.md",
+          "Order": 13
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-03/Ex_11.md",
+          "Order": 14
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-03/Ex_12.md",
+          "Order": 16
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Instructor-guide/Hand_on-Lab-03/Ex_13.md",
+        "Order": 17
+       }
+
       ]
     }
   ]
