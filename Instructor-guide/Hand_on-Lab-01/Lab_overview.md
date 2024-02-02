@@ -42,7 +42,7 @@ You will have access to a lab guide which is a reference material to assist you 
 
 Based on your interests, you can use this lab guide as a reference to learn and test any VMware feature. You are also encouraged to explore additional features of VMware based on your interests and preferences.
 
-- Exercise 01 - Understand the AVS deployment architecture
+- Exercise 1 - Understand the AVS deployment architecture
 - Exercise 2 - Connect Azure VNET to AVS using Express Route Connectivity 
 - Exercise 3 - Configure DHCP for Azure VMware Solution
 - Exercise 4 - Deploy VMware VMs in AVS 
