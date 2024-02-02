@@ -32,7 +32,7 @@ In this task, you will configure the Log Analytics agent for an Azure Arc-enable
 
 1. Once the deployment got succeeded, Click on **Go to resource** and click on **Agents** under Settings section.
 
-   ![](../Images/image11.png)
+   ![](../Images/loganalytics-15.png)
 
 1. On **log-analytics-ws-avs | Agents page**, expand **Log Analytics agent instructions** copy the **Workspace ID(1)** and **Primary key(2)** in notepad you needs this values in upcoming steps.
 
