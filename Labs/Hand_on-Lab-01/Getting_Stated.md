@@ -8,7 +8,7 @@ Welcome to your Azure VMware Solution workshop! We've prepared a seamless enviro
 
    ![Enter Your Username](../Images/evn.png)
  
-2. On your desktop open Microsoft Edge and navigate to the `https://portal.azure.com/`.
+2. Open Microsoft Edge on your desktop and go to `https://portal.azure.com/`.
  
 3. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
  
