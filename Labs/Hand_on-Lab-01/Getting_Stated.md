@@ -4,17 +4,17 @@ Welcome to your Azure VMware Solution workshop! We've prepared a seamless enviro
 
 ### **Let's Get Started with the Azure Portal**
 
-1. Access the lab environment details by navigating to the **Environment Details** tab. Take note of the provided username and password for reference.
+1. Access the lab environment details by navigating to the **Environment Details** tab. Take note of the provided username and password.
 
    ![Enter Your Username](../Images/evn.png)
  
 2. Open Microsoft Edge on your desktop and go to `https://portal.azure.com/`.
  
-3. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+3. On the **Sign into Microsoft Azure** tab, enter the username you previously noted in first step.
  
     ![Enter Your Username](../Images/gH.png)
  
-4. Next, provide your password:
+4. Next, input the password you documented during the first step:
  
    ![Enter Your Password](../Images/gI.png)
  
