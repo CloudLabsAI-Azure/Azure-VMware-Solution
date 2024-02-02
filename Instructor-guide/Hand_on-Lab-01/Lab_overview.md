@@ -9,8 +9,8 @@
  
 ### Azure Subscription and Resource Group
  
-Create an Azure subscription: Subscription will be already provided.
-Create a resource group: Resource group to manage all the resources related to your AVS private cloud will be also pre-configured.
+**Create an Azure subscription:** Subscription will be already provided<br>
+**Create a resource group:** Resource group to manage all the resources related to your AVS private cloud will be also pre-configured.
  
 ### ExpressRoute
 For a secure and high-performance connection to your on-premises network, set up ExpressRoute. The upcoming exercises will guide you through the configuration process.

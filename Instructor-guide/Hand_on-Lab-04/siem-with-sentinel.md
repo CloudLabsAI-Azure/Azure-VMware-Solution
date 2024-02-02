@@ -51,4 +51,69 @@ In this task, you will create Microsoft Sentinel workspace where you will be mon
 
 1. In the details pane for the connector, select Open connector page.
 
-1. On the configuration page, select the subscription and click on **Connect**
+1. On the configuration page, select the subscription and click on **Connect**.
+
+### Task 4: Create rules to identify security threats
+
+In this task, you will create rules to generate alerts for detected threats. In the following example, we create a rule for attempts to sign in to Windows server with the wrong password.
+
+1. On the Microsoft Sentinel overview page, under Configurations, select Analytics.
+
+1. Select **+Create** and on the drop-down, select **Scheduled query rule**.
+
+1. On the General tab, enter the required information and then select Next: Set rule logic.
+
+      Name
+      Description
+      Tactics
+      Severity
+      Status
+
+1. On the Set rule logic tab, enter the required information, then select Next.
+
+1. Rule query (here showing our example query)
+
+    ```
+    SecurityEvent
+    |where Activity startswith '4625'
+    |summarize count () by IpAddress,Computer
+    |where count_ > 3
+    ```
+
+1. On the Incident settings tab, enable Create incidents from alerts triggered by this analytics rule and select Next: Automated response.
+
+1. Select Next: Review.
+
+1. On the Review and create tab, review the information, and select Create.
+
+### Task 5: View data ingested into Microsoft Sentinel
+
+In this task, you will be inspecting and reviewing the data that has been successfully ingested into Microsoft Sentinel from Microsoft Defender for Cloud and Security events connector. 
+
+1. In Microsoft Sentinel, select Data connectors.
+
+1. Search and select the **Subscription-based Microsoft Defender for Cloud (Legacy)** data connector.
+
+1. In the details pane for the connector, select Open connector page.
+
+1. Review the Status of the data connector. It should be Connected.
+
+1. Scroll down and select **Go to log analytics**.
+
+1. In the query pane, run the default query, to view the activity data ingested into the workspace.
+
+1. In Microsoft Sentinel, select Data connectors.
+
+1. Search and select the **Security events Via Legacy agent** data connector.
+
+1. In the details pane for the connector, select Open connector page.
+
+1. Review the Status of the data connector. It should be Connected.
+
+1. Scroll down and select **Go to log analytics**.
+
+1. In the query pane, run the default query, to view the activity data ingested into the workspace.
+
+
+
+
