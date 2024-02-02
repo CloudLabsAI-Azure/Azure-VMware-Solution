@@ -54,12 +54,12 @@ Based on your interests, you can use this lab guide as a reference to learn and 
 - Exercise 10 - Setup HCX on AVS
 - Exercise 11 - Obtain HCX License Key
 - Exercise 12 - Activate VMware HCX
-- Exercise 13: Configure HCX and connect to vCenter
-- Exercise 14: Manage with Azure Arc 
-- Exercise 15:Logging with Log Analytics  
-- Exercise 16:Monitor AVS VMs with Azure Monitoring 
-- Exercise 17:Protect with Defender for Cloud 
-- Exercise 18:SIEM with Sentinel 
+- Exercise 13 - Configure HCX and connect to vCenter
+- Exercise 14 - Manage with Azure Arc 
+- Exercise 15 - Logging with Log Analytics  
+- Exercise 16 - Monitor AVS VMs with Azure Monitoring 
+- Exercise 17 - Protect with Defender for Cloud 
+- Exercise 18 - SIEM with Sentinel 
 
 ### Azure services and related products
 
@@ -68,6 +68,7 @@ Based on your interests, you can use this lab guide as a reference to learn and 
 - Virtual Network Gateway
 - Microsoft Defender for Cloud
 - Log Analytics Workspace
+- Sentinel Workspace
 - Azure Monitor
 - Azure Arc
-- Sentinel Workspace
+
