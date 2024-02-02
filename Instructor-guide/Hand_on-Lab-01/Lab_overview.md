@@ -1,5 +1,9 @@
 # Lab Overview: Building Your Cloud Journey with Azure VMware Solution
- 
+
+## Overview
+
+Azure VMware Solution (AVS) is a cloud service on Microsoft Azure that allows organizations to run and manage VMware workloads seamlessly in the Azure environment. It offers integrated support, flexibility, and advanced networking, enabling a consistent hybrid cloud experience. AVS facilitates the extension of on-premises VMware environments to Azure without the need for extensive reconfiguration.
+
 ## Planning and Design:
  
 ### Define requirements: 
@@ -31,3 +35,39 @@ In the hands-on labs, the deployment of VMs will be executed using the vSphere C
 ### Ongoing Management and Monitoring:
  
 During our lab sessions, we'll manage VMs and infrastructure using the vSphere Client and other VMware tools. Optionally, integrate Azure Monitor with Azure Arc for Servers for enhanced insights into resource performance. Additionally, utilize Azure Log Analytics for centralized logging and analysis of AVS events.
+
+## Lab guide Content:
+
+You will have access to a lab guide which is a reference material to assist you in getting started with the exploration.
+
+Based on your interests, you can use this lab guide as a reference to learn and test any VMware feature. You are also encouraged to explore additional features of VMware based on your interests and preferences.
+
+- Exercise 01 - Understand the AVS deployment architecture
+- Exercise 2 - Connect Azure VNET to AVS using Express Route Connectivity 
+- Exercise 3 - Configure DHCP for Azure VMware Solution
+- Exercise 4 - Deploy VMware VMs in AVS 
+- Exercise 5 - Enable Managed SNAT for Azure VMware Solution workloads 
+- Exercise 6 - Configure a DNS forwarder in the Azure portal
+- Exercise 7 - Deploy HCX for VM Migration
+- Exercise 8 - Download the HCX OVA to JumpBox-VM vCenter
+- Exercise 9 - Import the OVA file to the JumpBox-VM vCenter
+- Exercise 10 - Setup HCX on AVS
+- Exercise 11 - Obtain HCX License Key
+- Exercise 12 - Activate VMware HCX
+- Exercise 13: Configure HCX and connect to vCenter
+- Exercise 14: Manage with Azure Arc 
+- Exercise 15:Logging with Log Analytics  
+- Exercise 16:Monitor AVS VMs with Azure Monitoring 
+- Exercise 17:Protect with Defender for Cloud 
+- Exercise 18:SIEM with Sentinel 
+
+### Azure services and related products
+
+- Azure VMware solution
+- Azure Virtual Machine
+- Virtual Network Gateway
+- Microsoft Defender for Cloud
+- Log Analytics Workspace
+- Azure Monitor
+- Azure Arc
+- Sentinel Workspace
