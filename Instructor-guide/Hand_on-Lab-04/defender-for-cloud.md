@@ -12,3 +12,13 @@ In this task, you will be getting started with the functionality of Microsoft De
 1. On the **Getting Started** page, under the **Upgrade** tab, make sure **log analytics workspace** is also selected and then select the **Upgrade(2)** button at the bottom of the page.
 
     ![](../media/ns22.png)
+
+### Task 2: View recommendations and passed assessments
+
+1. In Microsoft Defender for Cloud, select **Inventory** from the left pane.
+
+1. For Resource type, select **Machines - Azure Arc**.
+
+1. Select the **WinDev2401Eval** resource. A page opens showing the security health details of your resource.
+
+1. Under Recommendation list, select the Recommendations, Passed assessments, and Unavailable assessments tabs to view these details.
