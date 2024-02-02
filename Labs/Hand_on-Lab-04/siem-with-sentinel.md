@@ -1,4 +1,4 @@
-### Task 1: Create Sentinel Workspace
+### Task 1: Adding workspace to the sentinel
 
 In this task, you will create Microsoft Sentinel workspace where you will be monitoring and analyzing security events.
 
