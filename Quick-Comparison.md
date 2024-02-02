@@ -6,7 +6,7 @@ Choosing the optimal cloud infrastructure solution requires careful consideratio
 
 * **Control and Customization:** On-prem VMware offers complete control over hardware, software, and security configurations. AVS provides flexibility and customization within the Azure ecosystem.
 * **Scalability:** On-prem deployments require manual effort for scaling, while AVS enables on-demand scalability within its infrastructure.
-* Cost: On-prem deployments incur significant upfront costs, while AVS adopts a pay-as-you-go model.
+* **Cost**: On-prem deployments incur significant upfront costs, while AVS adopts a pay-as-you-go model.
 *  **Management**: On-prem deployments require internal management, while AVS leverages Microsoft's management services.
 * **Security**: On-prem deployments offer full control over security, while AVS involves shared responsibility with Microsoft.
 
