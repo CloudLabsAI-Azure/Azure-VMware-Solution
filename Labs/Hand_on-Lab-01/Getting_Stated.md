@@ -8,27 +8,27 @@ Welcome to your Azure VMware Solution workshop! We've prepared a seamless enviro
 
    ![Enter Your Username](../Images/evn.png)
  
-1. On your desktop open Microsoft Edge and navigate to the `https://portal.azure.com/`.
+2. On your desktop open Microsoft Edge and navigate to the `https://portal.azure.com/`.
  
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+3. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
     ![Enter Your Username](../Images/gH.png)
  
-3. Next, provide your password:
+4. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
    ![Enter Your Password](../Images/gI.png)
  
-4. If prompted to stay signed in, you can click "No."
+5. If prompted to stay signed in, you can click "No."
 
-5. If you are prompted with a window for MFA, click on **Ask Later**.
+6. If you are prompted with a window for MFA, click on **Ask Later**.
 
-6. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
+7. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
  
-7. Click "Next" from the bottom right corner to embark on your lab journey!
+8. Click "Next" from the bottom right corner to embark on your lab journey!
  
      ![Start Your Azure Journey](../Images/gJ.png)
  
