@@ -18,7 +18,13 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 
 1. Select the default Region 
 
-1. Select **Review + Create**.
+1. On the Create Log Analytics workspace page, add the below settings and click on **Review + Create**.
+
+      | Setting | Value|
+      |----------|--------|
+      | Resource Group | **AVS RG** |
+      | Name | **log-analytics-ws-avs**|
+      | Region | **East US**|
 
    ![](../Images/loganalytics-3.png)
 
