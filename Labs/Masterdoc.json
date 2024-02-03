@@ -12,18 +12,6 @@
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Introduction-to-AVS.md",
-        "Order": 3
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Quick-Comparison.md",
-        "Order": 4
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Planning-an-AVS-Deployment.md",
-        "Order": 5
-      },
-      {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Azure-VMware-Solution/avs-2024/Labs/Hand_on-Lab-01/Ex_01.md",
         "Order": 6
       },
