@@ -4,7 +4,7 @@ Planning your Azure VMware Solution deployment is crucial for creating a success
 
 You will have to: 
  * Identify the Azure subscription, resource group, region, and resource name
- * Identify the size hosts and determine the number of clusters and hosts
+ * Identify the size of hosts and determine the number of clusters and hosts
  * Request a host quota for an eligible Azure plan
  * Identify the /22 CIDR IP segment for private cloud management
  * Identify a single network segment
