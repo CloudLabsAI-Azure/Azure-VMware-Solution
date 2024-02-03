@@ -14,6 +14,7 @@ With your Lab Environment you will get following Pre-Requisite enabled:
 You will get the access to the subscription and resources for one day with full access, in which you can perform the lab and run the cleanup steps. So, next day next person can access the environment and perform the lab.
 
 > [!IMPORTANT]
+> 
 > Here you need to use the environment wisely and make sure
 > - [x] To utilize the day to perform the lab and explore Azure VMWare private cloud.
 > - [x] Do not perform anything else which is not provided in the lab guide. It may lead the environment breakdown and can affect other to perform the lab on time.
