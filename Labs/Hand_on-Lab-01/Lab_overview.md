@@ -4,7 +4,7 @@
 Azure VMware Solution (AVS) is a cloud service on Microsoft Azure that allows organizations to run and manage VMware workloads seamlessly in the Azure environment. It offers integrated support, flexibility, and advanced networking, enabling a consistent hybrid cloud experience. AVS facilitates the extension of on-premises VMware environments to Azure without the need for extensive reconfiguration.
 
 ## Pre-Requisite:
-With your Lab Environment you will get following Pre-Requisite enabled:
+With your Lab Environment you will get the following Pre-Requisite enabled:
  - An Azure Entra ID Account
  - Azure Subscription
  - Pre-Deployed Azure VMWare Solutions private cloud resource in AVS-RG
@@ -17,7 +17,7 @@ You will get the access to the subscription and resources for one day with full 
 > 
 > Here you need to use the environment wisely and make sure
 > - [x] To utilize the day to perform the lab and explore Azure VMWare private cloud.
-> - [x] Do not perform anything else which is not provided in the lab guide. It may lead the environment breakdown and can affect other to perform the lab on time.
+> - [x] Do not perform anything else which is not provided in the lab guide. It may lead the environment breakdown and can affect others to perform the lab on time.
 > - [x] Cleanup the environment by using the cleanup guide.
 > - [X] During the cleanup make sure you do not delete the **AVS-DC** resource and **AVS-RG**
 > - [x] Inform the leads once you have done the testing and cleanup.
