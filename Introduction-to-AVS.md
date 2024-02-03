@@ -1,41 +1,54 @@
-# Introduction to AVS Architecture
+# Introduction:
+In this Hands-on Lab, you will delve into Azure VMware Solution (AVS), starting with an introduction to its architecture and a comparison with on-prem VMware deployments. Through hands-on labs, attendees will connect Azure VNET to AVS, configure DHCP, set up networking features like Managed SNAT and DNS forwarder, deploy VMware VMs in AVS, and explore advanced topics such as setting up HCX and implementing monitoring using Azure Monitor, Azure Arc, and Log Analytics. Post-workshop, self-paced exercises cover additional topics like monitoring AVS VMs with Azure Monitoring, securing with Defender for Cloud, and implementing SIEM with Sentinel.
 
 ## Architecture diagram:
 
    ![](./Labs/Images/diagram-avs1.png)
 
-## Initial Connection and Management
+The Azure VMware Solution (AVS) architecture enables organizations to run and manage VMware workloads seamlessly within the Azure cloud environment. Here's an overview of the key components and how they interact:
 
-* The process starts with the **Jumpbox VM** in the Jumpbox Subnet. This isolated VM serves as the secure entry point for initial AVS configuration and management.
-You connect to the jumpbox VM remotely using SSH or RDP through the internet and the **AVS Gateway**.
+### Azure Subscription:
+AVS operates within an Azure subscription, providing a dedicated environment for running VMware workloads.
 
-## Internal Routing and Management
+### Resource Groups:
+AVS resources are organized within Azure resource groups, allowing for logical grouping and management.
 
-* **The Azure Route Server** in the Route Server Subnet dynamically learns and manages routes within the AVS private cloud. This simplifies routing configuration and centralizes its control.
+### AVS Private Cloud:
+The core of AVS is the private cloud, which consists of VMware vSphere clusters running on Azure infrastructure.
+Each private cloud is associated with an Azure region.
 
-## External Connectivity 
+### vSphere Cluster:
+Within the private cloud, one or more vSphere clusters are deployed. These clusters include ESXi hosts and vCenter Server.
 
-* While not explicitly shown, the architecture allows for an **ExpressRoute** connection. This dedicated private link between your on-premises network and Azure offers increased security, low latency, and high bandwidth compared to the public internet.
+### ESXi Hosts:
+Physical servers within the Azure data center running the ESXi hypervisor. Virtual machines (VMs) are deployed on these hosts.
 
-## Core AVS Infrastructure
+### vCenter Server:
+Manages the vSphere clusters and provides a centralized platform for VM management, provisioning, and monitoring.
 
-* The **AVS** component represents the core VMware SDDC environment running on Azure infrastructure. This is where you deploy and manage your virtual machines.
+### NSX-T Networking:
+AVS uses VMware NSX-T for networking and security within the private cloud.
+NSX-T enables features such as micro-segmentation, load balancing, and network automation.
 
-## Advanced Networking and Security
+### vSAN Storage:
+Virtual Storage Area Network (vSAN) provides distributed storage across the ESXi hosts, ensuring high availability and performance.
 
-* This architecture incorporate **NSX-T**. This service provides advanced networking and security features like firewalls, microsegmentation, and load balancing within the AVS private cloud.
+### Azure Virtual Network Integration with ExpressRoute:
+Azure VMWare Solution (AVS) private cloud integrates with Azure Virtual Network (VNET), allowing communication between Azure services and VMware workloads. AVS provide various methods to establish connect with other networks like Azure vNet Connect, ExpressRoute, ExpressRoute Global Reach, AVS Interconnect, in this lab we will be using ExpressRoute method. 
 
-## Network Segmentation and Workloads
+### Azure Entra ID Integration:
+Integrates with Entra ID for identity and access management, enabling seamless user authentication. In this lab you will be able to access the AVS resource with your Azure Entra ID credentials provided in this lab.
 
-* This architecture illustrates two **Tier-1 Gateways** connecting various **Workload Segments**. These segments strategically isolate different workloads, such as development, testing, and production, ensuring improved security, management, and resource allocation.
+### Azure Portal and APIs:
+AVS is managed through the Azure portal, providing a unified interface for configuration, monitoring, and management.
+Azure Resource Manager (ARM) APIs can also be used for automation and scripting.
 
-## Virtual Machines and Management
+### JumpBox VM:
+You will be deploying the JumpBox, Virtual Network and Virtual Network gateway using an ARM template, these resources will be used to establish the connectivity with AVS and then from JumpBox you will be able to access the AVS vCenter Server and NSX-T Manager.
 
-* VMs reside within the Workload Segments, representing your applications and workloads.
-* You manage these VMs using familiar **vSphere Client** or other compatible tools, treating them similarly to on-premises deployments.
+### HCX (Hybrid Cloud Extension):
+HCX facilitates workload migration and mobility between on-premises data centers and the AVS private cloud.
 
-### Monitoring and Optimization
-
-* **DHCP/DNS, Port Mirroring, Load Balancing, Firewalling, Routing, and Switching** services support core network functionality within the AVS private cloud.
-* **Azure Monitor** integration, achievable through **Azure Arc for Servers**, provides optional insights into AVS VM performance and health.
-* **Log Analytics** can be used for centralized logging and analysis of AVS events and activities.
+### Azure Services Integration:
+AVS allows seamless integration with various Azure services, enabling organizations to leverage Azure functionalities alongside their VMware workloads.
+Overall, AVS provides a consistent and familiar VMware environment while leveraging the scalability, flexibility, and additional services available in the Azure cloud ecosystem. This integration simplifies the migration and management of VMware workloads in the cloud.
