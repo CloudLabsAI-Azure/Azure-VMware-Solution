@@ -15,11 +15,11 @@ You will get the access to the subscription and resources for one day with full 
 
 > [!IMPORTANT]
 > Here you need to use the environment wisely and make sure
-> * To utilize the day to perform the lab and explore Azure VMWare private cloud.
-> * Do not perform anything else which is not provided in the lab guide. It may lead the environment breakdown and can affect other to perform the lab on time.
-> * Cleanup the environment by using the cleanup guide.
-> * During the cleanup make sure you do not delete the environment.
-> * Inform the leads once you have done the testing and cleanup.
+> - [x] To utilize the day to perform the lab and explore Azure VMWare private cloud.
+> - [x] Do not perform anything else which is not provided in the lab guide. It may lead the environment breakdown and can affect other to perform the lab on time.
+> - [x] Cleanup the environment by using the cleanup guide.
+> - [X] During the cleanup make sure you do not delete the **AVS-DC** resource and **AVS-RG**.
+> - [x] Inform the leads once you have done the testing and cleanup.
 
 ## Lab guide Content:
 You will have access to a lab guide which is a reference material to assist you in getting started with the exploration.
