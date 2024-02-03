@@ -5,10 +5,10 @@ Azure VMware Solution (AVS) is a cloud service on Microsoft Azure that allows or
 
 ## Pre-Requisite:
 With your Lab Environment you will get following Pre-Requisite enabled:
- * An Azure Entra ID Account
- * Azure Subscription
- * Pre-Deployed Azure VMWare Solutions private cloud resource
- * A JumpBox RG
+ - [x] An Azure Entra ID Account
+ - [x] Azure Subscription
+ - [x] Pre-Deployed Azure VMWare Solutions private cloud resource
+ - [x] A blank JumpBox RG
  
 ## Lab Objective
 You will get the access to the subscription and resources for one day with full access, in which you can perform the lab and run the cleanup steps. So, next day next person can access the environment and perform the lab.
