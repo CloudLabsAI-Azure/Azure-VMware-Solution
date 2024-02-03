@@ -52,4 +52,3 @@ You will have access to a lab guide which is a reference material to assist you 
 - Sentinel Workspace
 - Azure Monitor
 - Azure Arc
-
