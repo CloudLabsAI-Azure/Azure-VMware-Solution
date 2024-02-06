@@ -8,7 +8,7 @@ With your Lab Environment you will get the following Pre-Requisite enabled:
  - An Azure Entra ID Account
  - Azure Subscription
  - Pre-Deployed Azure VMWare Solutions private cloud resource in AVS-RG
- - A blank JumpBox RG
+ - A blank LabRG-<inject key="DeploymentID" />
  
 ## Lab Objective
 You will get the access to the subscription and resources for one day with full access, in which you can perform the lab and run the cleanup steps. So, next day next person can access the environment and perform the lab.
