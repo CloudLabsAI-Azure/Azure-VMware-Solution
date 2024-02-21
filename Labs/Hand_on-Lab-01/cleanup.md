@@ -1,5 +1,7 @@
 # Cleanup the existing resources
 
+The objective of this lab is to ensure thorough cleanup of previously established resources, thereby facilitating a seamless transition to subsequent lab activities for an uninterrupted learning experience.
+
 ## Task 1: Cleanup the Connected existing VMs
 
 1. Navigate back to the **Azure portal** where the **Azure VMware Solution page** is open.
@@ -24,7 +26,7 @@
 
    **Note:** Repeat the same steps for more than one VMs present to delete before moving to next lab, including HCX-Connectors.
 
-## Task 2: Cleanup the existing DHCP
+## Task 2: Cleanup the existing Networking resources
 
 1. In the Azure portal search for **Azure VMware Solution (1)**, and then select **Azure VMware Solution (2)** from the results.
 
