@@ -1,6 +1,6 @@
-# Cleanup the Exesting resources
+# Cleanup the existing resources
 
-## Task 1: Cleanup the Connected exesting VMs
+## Task 1: Cleanup the Connected existing VMs
 
 1. Navigate back to the **Azure portal** where the **Azure VMware Solution page** is open.
 
@@ -24,7 +24,7 @@
 
    **Note:** Repeat the same steps for more than one VMs present to delete before moving to next lab, including HCX-Connectors.
 
-## Task 2: Cleanup the exesting DHCP
+## Task 2: Cleanup the existing DHCP
 
 1. In the Azure portal search for **Azure VMware Solution (1)**, and then select **Azure VMware Solution (2)** from the results.
 
@@ -60,3 +60,5 @@
 9. In the **NSX-T Console**, click **Networking**. Select **DHCP** under management, if you see any DHCP already there, then remove that. Click on ellipse (**⋮**) (3) and then select **Delete** (4).
 
    ![DHCP PROFILE](../Images/DHCP-Cleanup.png)
+
+# You have successfully completed the cleanup
